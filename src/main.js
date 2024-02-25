@@ -6,6 +6,7 @@ import CanvasJSStockChart from '@canvasjs/vue-stockcharts';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
+
 axios.interceptors.request.use((config) => {
     Swal.fire({
       html: '<div class="loading"></div>',

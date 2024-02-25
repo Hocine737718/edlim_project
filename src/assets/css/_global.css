@@ -12,8 +12,10 @@
     --yellow-color: rgb(255, 229, 2);
     --yellow-color-light:rgb(255, 240, 108);
 
-    --white-color: #fff;
-    --smoke-color:rgb(247,248,252);
+    --white-color: rgba(255,255,255,0.65);
+    --smoke-color:rgb(219, 219, 219);
+    --smoke-color-light:rgb(219, 219, 219,0.55);
+    --smoke-color-lighten:rgb(219, 219, 219,0.35);
 
     --back-color: rgb(255 254 171 / 90%);
 
@@ -24,6 +26,7 @@
 
     --font-regular: 400;
     --font-semi-bold: 700;
+    --font-bold: bolder;
 
     --font-size-1: .5rem;
     --font-size-2: .65rem;
@@ -41,6 +44,9 @@
     --padding-btn:20px;
 
     --width-available:-webkit-fill-available;
+
+    --logo-width:150px;
+    --mini-logo-width:130px;
 }
 * {
     box-sizing: border-box;
@@ -54,7 +60,7 @@ body {
     margin-top: var(--header-height);
     font-family: var(--body-font);
     font-size: var(--font-size-5);
-    background-color: var(--smoke-color);
+    background-color: var(--white-color);
 }
 ul {
     list-style: none;

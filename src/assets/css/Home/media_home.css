@@ -42,11 +42,8 @@
     }      
 }
 @media screen and (max-width: 428px) {
-    .about_h_back {
-        font-size: 0.85rem;
-    }    
     .about_h_title{
-        font-size: 1.5rem;
+        font-size: var(--font-size-8);
     }
 }
 @media screen and (max-width: 421px) {
@@ -73,10 +70,4 @@
     .signup_form {
         padding: 3rem 0.5rem;
     } 
-    .about_h_back {
-        font-size: 0.75rem;
-    }    
-    .about_h_title{
-        font-size: 1.25rem;
-    }
 }

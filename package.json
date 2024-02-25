@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@canvasjs/stockcharts": "^1.7.39",
-    "@canvasjs/vue-charts": "^1.0.1",
+    "@canvasjs/vue-stockcharts": "^1.0.2",
     "axios": "^1.6.7",
     "core-js": "^3.8.3",
     "jquery": "^3.7.1",

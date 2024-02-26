@@ -31,7 +31,7 @@
     font-size: var(--font-size-12);
     padding: 2rem 0;
     align-items: center;
-    color:var(--smoke-color-light);
+    color:#fff;
 }
 .signup_input{
     width: 0px;
@@ -44,7 +44,7 @@
 }
 .signup_btn{
     background: var(--blue-color);
-    color: var(--smoke-color-light);
+    color:#fff;
     padding: 2rem;
     font-size: var(--font-size-6);
     text-transform: uppercase;

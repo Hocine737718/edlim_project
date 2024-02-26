@@ -49,3 +49,7 @@
     font-size: var(--font-size-6);
     text-transform: uppercase;
 }
+.signup_btn:hover{
+    font-weight: var(--font-bolder);
+    color: var(--yellow-color);
+}

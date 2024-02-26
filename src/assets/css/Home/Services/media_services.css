@@ -1,31 +1,16 @@
-@media screen and (max-width: 1440px) {
-    .home_services {
-        padding: 5rem 1rem;
-        row-gap: 1rem;
-    }
-    .services_header h2{
-        font-size: 1.25rem;
-    }
-    .services_cards{
-        column-gap: 0.5rem;
-        padding: 0;
-    }
-}
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .services_cards{
         grid-template-columns: 1fr;
-        row-gap: 1.5rem;
+        row-gap: 3rem;
         padding: 2rem 1rem;
+        margin-top: 0rem;
     }
     .services_card{
-        column-gap: 1.5rem;
+        column-gap: 3rem;
     }    
     .home_services {
         padding: 3rem;
     }
-    .card_content_header{
-        font-size: 1.5rem;
-    }  
 }
 @media screen and (max-width: 491px) {
     .services_cards{
@@ -37,17 +22,5 @@
     } 
     .home_services {
         padding: 3rem 0.5rem;
-    }    
-    .services_header span{
-        font-size: 1.75rem;
-    }
-    .services_header h2{
-        font-size: 0.9rem;
-    }
-    .card_content{
-        font-size: 0.9rem; 
-    }
-    .card_content_header{
-        font-size: 1rem;
-    }   
+    } 
 }

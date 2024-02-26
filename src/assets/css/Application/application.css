@@ -1,0 +1,125 @@
+.application{
+    margin-top: var(--header-height);
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../img/bg/bg.png");
+    min-height: calc(100vh - var(--header-height));
+}
+.application button{
+    padding: 10px 20px;
+    font-size: 1.15rem;
+    border-radius: 20px;
+    width:fit-content;
+}
+.application_back{
+    background-color:var(--back-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: flex-start;
+    min-height: calc(100vh - var(--header-height));
+    padding: 30px 70px;
+}
+.application_header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;    
+    row-gap: 10px;
+    padding: 20px 60px;
+    width: 95%;
+}
+.application_title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.application_header p{
+    font-size: 1rem;
+}
+.application_body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    width: 95%;
+    padding: 0 20px;
+}
+.application_box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    font-size: 1.15rem;
+    padding: 20px;
+    width:100%;
+}
+.application_label{
+    min-width: 180px;
+    text-align: right;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.required{
+    color: red;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+.application_input{
+    border:2px black solid;
+    border-radius: 20px;
+    width: 700px;
+    padding: 10px 15px;
+    font-size: 1.15rem;
+    resize: none;
+    height: 46px;
+}
+.application_input.textarea{
+    height: auto;
+}
+.application_input:focus{
+    border-color: red;
+}
+.application_box span{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.application_box button{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    background-color: #e2e2e2;
+    color: black;
+}
+.application_box button:hover{
+    border: 1px red solid;
+    background-color: rgb(255, 75, 75);
+}
+.applcation_footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width:700px;
+}
+.applcation_footer button{
+    background-color: var(--first-color);
+    color: white;
+}
+.applcation_footer button:hover{
+    background-color: var(--first-color-light);
+}
+.application_file{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;  
+    column-gap: 5px;  
+}
+.application_file small{
+    white-space: nowrap; /* Empêche le texte de se retourner à la ligne */
+    overflow: hidden; /* Cache tout texte qui dépasse de l'élément */
+    text-overflow: ellipsis; /* Affiche "..." lorsque le texte est coupé */
+    width:200px;
+}

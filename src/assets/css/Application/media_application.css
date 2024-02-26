@@ -1,0 +1,149 @@
+@media screen and (max-width: 1130px) {
+    .application_back{
+        padding: 30px 0px;
+    } 
+    .application_input{
+        width:-webkit-fill-available;
+        max-width: 700px;
+    }
+    .applcation_footer{
+        width: -webkit-fill-available;
+    }
+}
+@media screen and (max-width: 990px) {
+    .application_header{
+        padding: 20px;
+        width:100%;
+    }
+    .application_input{
+        max-width: 550px;
+    }    
+}
+@media screen and (max-width: 860px) {
+    .application_header{
+        align-items: center;
+        width:100%;
+    }
+    .application_header p{
+        text-align: justify;
+    }
+    .application_title {
+        font-size: 2rem;
+    }
+    .application_input{
+        max-width: 470px;
+    }   
+}
+@media screen and (max-width: 773px) {
+    .application_body {
+        padding: 0;
+    }
+    .application_box {
+        padding: 10px 0;
+    }
+    .application_input{
+        max-width: 400px;
+    } 
+    .select_options{
+        font-size:0.75rem;
+    }
+}
+@media screen and (max-width: 645px) {
+    .application_input{
+        max-width: 350px;
+    } 
+    .select_options{
+        row-gap: 15px!important;
+    }
+}
+@media screen and (max-width: 598px) {
+    .application_header{
+        padding: 10px 5px;
+    }
+    .application_header p{
+        text-align: center;
+    }    
+    .application_title {
+        font-size: 1.5rem;
+    }
+    .application_input{
+        max-width: 280px;
+    } 
+    .application_file small{
+       width:150px;
+    }
+}
+@media screen and (max-width: 512px) {
+    .application_input{
+        padding: 5px;
+    }
+    .application button{
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    .application_label {
+        min-width: 150px;
+        font-size: 1rem;
+    }
+    .application_box small{
+        font-size: 0.8rem;
+    }
+    .application_input {
+        height: 40px;
+    }
+    .application_file small{
+        width:170px;
+     }
+}
+@media screen and (max-width: 462px) {
+    .application_input{
+        max-width: 250px;
+    } 
+    .select_options{
+       row-gap: 10px!important;
+    }
+    .application_file small{
+        width:120px;
+    }
+}
+@media screen and (max-width: 432px) {
+    .application_title {
+        font-size: 1rem;
+    }
+    .application_header p {
+        font-size: 0.75rem;
+    }
+    .application_label {
+        min-width: 120px;
+        font-size: 0.75rem;
+    }
+    .application_box small{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .application_input{
+        max-width: 190px;
+    } 
+    .select_options{
+        font-size:0.65rem;
+    }
+    .select_search input::placeholder {
+        font-size: 0.8rem;
+    }
+    .application_file{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;  
+        row-gap: 5px;  
+    }
+    .application_file small{
+        width:150px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .application_input{
+        max-width: 150px;
+    } 
+}

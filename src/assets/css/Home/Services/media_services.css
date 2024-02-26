@@ -1,4 +1,10 @@
 @media screen and (max-width: 800px) {
+    #srv_card1, #srv_card3{
+        transform: translateY(0px);
+    }
+    #srv_card2{
+        transform: translateY(0px);
+    }
     .services_cards{
         grid-template-columns: 1fr;
         row-gap: 3rem;

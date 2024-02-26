@@ -3,23 +3,12 @@
         width: 300px;
         padding: 1.5rem;
     }
-    .signup_input{
-        font-size: 1rem;
-    }
     .signup_box i{
-        font-size: 2.75rem;
         padding: 1.5rem 0;
     }
     .signup_btn{
         padding: 1.5rem;
-        font-size: 1rem;
-    }
-    .home_signup h1{
-        font-size: 1.5rem;
-    }
-    .about_h_back {
-        padding: 2rem 0.75rem;
-    }     
+    }    
 }
 @media screen and (max-width: 554px) {
     .signup_box:hover > .signup_input,.signup_input:focus{
@@ -27,47 +16,37 @@
         padding: 1rem;
     }
     .signup_input{
-        font-size: 0.75rem;
+        font-size: var(--font-size-4);
     }
     .signup_box i{
-        font-size: 2.75rem;
+        font-size: var(--font-size-10);
         padding: 1rem 0;
     }
     .signup_btn{
         padding: 1rem;
-        font-size: 0.75rem;
+        font-size: var(--font-size-4);
     }
-    .home_signup h1{
-        font-size: 1.25rem;
+    .signup h1{
+        font-size: var(--font-size-7);
     }      
 }
-@media screen and (max-width: 428px) {
-    .about_h_title{
-        font-size: var(--font-size-8);
+@media screen and (max-width: 430px) {
+    .signup_form {
+        padding: 3rem 0.5rem;
     }
-}
-@media screen and (max-width: 421px) {
     .signup_box:hover > .signup_input,.signup_input:focus{
         width: 170px;
         padding: 0.75rem;
     }
     .signup_input{
-        font-size: 0.75rem;
+        font-size: var(--font-size-3);
     }
     .signup_box i{
-        font-size: 2.75rem;
+        font-size: var(--font-size-8);
         padding: 0.5rem 0;
     }
     .signup_btn{
         padding: 1rem;
-        font-size: 0.75rem;
-    }
-    .home_signup h1{
-        font-size: 1rem;
-    }    
-}
-@media screen and (max-width: 391px) {
-    .signup_form {
-        padding: 3rem 0.5rem;
-    } 
+        font-size: var(--font-size-3);
+    }   
 }

@@ -52,3 +52,13 @@
     color: var(--blue-color);
     text-decoration: underline;
 }
+@media screen and (max-width: 819px) {
+    .about_h_back {
+        padding: 2rem 0.75rem;
+    }     
+}
+@media screen and (max-width: 428px) {
+    .about_h_title{
+        font-size: var(--font-size-8);
+    }
+}

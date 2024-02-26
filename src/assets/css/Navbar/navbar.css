@@ -75,6 +75,7 @@
 }  
 .nav_link:hover {
     color: var(--blue-color);
+    opacity: 0.85;
 }
 .show-menu {
     opacity: 1;
@@ -100,8 +101,8 @@
 .dropdown_link, 
 .dropdown_sublink {
     padding: 1.25rem 1.25rem 1.25rem 2.5rem;
-    color: var(--black-color);
-    background-color: var(--smoke-color-light);
+    color: #fff;
+    background-color: var(--black-color-light);
     display: flex;
     align-items: center;
     column-gap: .5rem;
@@ -117,6 +118,7 @@
 .dropdown_link:hover, 
 .dropdown_sublink:hover {
     color: var(--blue-color);
+    opacity: 0.93;
 }  
 .dropdown_menu, 
 .dropdown_submenu {
@@ -142,6 +144,3 @@
 .dropdown_add {
     margin-left: auto;
 }  
-.dropdown_sublink {
-    background-color: var(--smoke-color-lighten);
-}

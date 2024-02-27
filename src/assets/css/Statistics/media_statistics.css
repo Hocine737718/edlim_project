@@ -2,44 +2,35 @@
     .statistics_chart{
         height:450px;
     }
-    .statistics_box {
-        text-align: justify;
-    }
-    .statistics_header{
-        font-size: 2.5rem;
-    }
 }
 @media screen and (max-width: 799px) {
+    .statistics_box {
+        padding: 1rem 0rem;
+    }
     .statistics_chart{
         height:350px;
-    }
-    .statistics_box {
-        padding: 2rem;
     }
 }
 @media screen and (max-width: 647px) {
     .statistics_chart{
         height:300px;
     }
-    .statistics_header{
-        font-size: 2rem;
-    }
     .statistics_body,.statistics_box {
         row-gap: 10px;
     }
+    .statistics_box {
+        padding: 10px;
+    }
+    .statistics_body{
+        text-align: -webkit-auto;
+    }
 }
 @media screen and (max-width: 565px) {
-    .statistics_header{
-        font-size: 1.8rem;
-    }
     .statistics_body {
-        font-size: 0.8rem;
+        font-size: var(--font-size-4);
     }
     .statistics_chart{
         height:220px;
-    }
-    .statistics_box {
-        padding: 2rem 1rem;
     }
 }
 @media screen and (max-width: 491px) {

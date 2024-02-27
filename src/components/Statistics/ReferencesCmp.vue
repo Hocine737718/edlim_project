@@ -13,12 +13,17 @@ export default {
         options: {
           theme: "light2",
           animationEnabled: true,
+          animationDuration: 4000,
           backgroundColor: 'rgba(255,255,255,0)',
           title: {
-            text: "NOS CLIENTS"
+            text: "NOS CLIENTS",          
+            verticalAlign:"top",
+            fontColor: "#1474b0",    
+            fontSize:32      
           },
           subtitles: [{
-            text: "par secteur d'activité"
+            text: "par secteur d'activité",
+            verticalAlign:"top",
           }],
           data: [{
             type: "doughnut",

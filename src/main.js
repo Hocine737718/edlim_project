@@ -5,6 +5,7 @@ import store from './store'
 import CanvasJSStockChart from '@canvasjs/vue-stockcharts';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import '@/assets/css/Swal/swal.css';
 
 
 axios.interceptors.request.use((config) => {
@@ -20,11 +21,11 @@ axios.interceptors.request.use((config) => {
 });
 axios.interceptors.response.use(
     (response) => {
-      Swal.close();
+      //Swal.close();
       return response;
     },
     (error) => {
-      Swal.close();
+      //Swal.close();
       return Promise.reject(error);
     }
 );

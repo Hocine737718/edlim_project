@@ -15,15 +15,15 @@
                     <div  class="footer_infos">
                         <div  class="footer_info">
                             <i class="ri-home-2-fill"></i>
-                            <span>199, Rue de Tripoli Bachdjerrah,<br> Alger 16000 Algérie</span>
+                            <span>30, Cité Ben Chaoua, Kheraisia,<br> Alger, Algérie</span>
                         </div>
                         <div  class="footer_info">
                             <i class="ri-phone-fill"></i>
-                            <span>+213(0)23-76-86-36</span>
+                            <span>0555 645 139 / 0676 760 330</span>
                         </div>
                         <div  class="footer_info">
                             <i class="ri-mail-fill"></i>
-                            <a href="mailto:contact@gms-dz.com">contact@gms-dz.com</a>
+                            <a href="mailto:contact@gms-dz.com">contact@edlim-dz.com</a>
                         </div>                        
                     </div>
                 </div>

@@ -16,12 +16,12 @@
                 <div class="slider_article article1">
                     <div class="slider_titles">
                         <div class="slider_first_title">
-                            EDLIM au service de votre business
+                            EDLIM, notre aide pour vos problèmes.
                         </div>
                         <div class="slider_second_title">
-                            Expertise - Disponibilité - Assistance - Solutions
+                            Compétence - Accessibilité - Soutien - Résolutions
                         </div>
-                        <a href="/qui-somme-nous" @click="startAnimation()" class="slider_button">
+                        <a href="/qui-somme-nous" class="slider_button">
                             Explorez-nous
                         </a>
                     </div>
@@ -39,7 +39,7 @@
                 <div class="slider_article article3">
                     <div class="slider_titles">
                         <div class="slider_first_title">
-                            EDLIM L’EXPERT DE L’ADMINISTRATION RH 
+                            EDLIM, votre partenaire pour la croissance de votre entreprise.
                         </div>
                         <div class="slider_second_title">
                             Assistance Administrative - Assistance Juridique - Audit de Conformité & de Performace

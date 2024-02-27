@@ -6,8 +6,7 @@
         </div>
         <div class="about_h_content">
             <p>
-                Le cabinet El Djazairia Likhadamat el Idaria Moutaadida, Sarl (par abréviation EDLIM) a été créé en Avril 2010 ; nous comptons plus de 20 salariés et de nombreux consultants externes spécialisés dans l'administration des ressources humaines avec tous ses aspects opérationnels ainsi que le conseil en droit social (droit du travail, sécurité sociale et fiscalité salariale).
-                EDLIM possède les compétences, les ressources et le savoir-faire nécessaires pour relever vos défis en matière d’administration des ressources humaines.
+                &nbsp;&nbsp;&nbsp;Récemment crée en 2024, la société nommée Eurl <b>El Djazairia Likhadamat el Idaria Moutaadida</b> avec les initiales <b>EDLIM</b> composé d’une équipe de professionnel résultant de longues années d’expériences et d’expertises aux seins de différents entreprises publique ou privée en incluant les multinationales.
             </p>
             <a href="/qui-somme-nous">Voir plus</a>            
         </div>

@@ -22,41 +22,38 @@
       </div>
       <div class="about_nav">
         <a class="about_nav_item" href="#about_history">Historique</a>
-        <a class="about_nav_item" href="#about_values">NOS VALEURS</a>
         <a class="about_nav_item" href="#about_team">Notre équipe</a>
+        <a class="about_nav_item" href="#about_values">NOS PRINCIPES</a>
       </div>
     </div>
     <div class="about_body" id="about_body">
       <div class="about_article" id="about_history">
         <h2>Historique</h2>
-        <p>&nbsp;&nbsp;&nbsp;Le cabinet Global Management Services, Sarl (par abréviation GMS) a été créé en Avril 2010 ; nous comptons plus de 20 salariés et de nombreux consultants externes spécialisés dans l'administration des ressources humaines avec tous ses aspects opérationnels ainsi que le conseil en droit social (droit du travail, sécurité sociale et fiscalité salariale).</p>
-        <p>&nbsp;&nbsp;&nbsp;GMS possède les compétences, les ressources et le savoir-faire nécessaires pour relever vos défis en matière d’administration des ressources humaines.</p>
-      </div>
-      <div class="about_article" id="about_values">
-        <h2>NOS VALEURS</h2>
-        <p>&nbsp;&nbsp;&nbsp;Chez GMS, nos clients sont au coeur de nos préoccupations. Nous cherchons à établir avec eux des relations privilégiées basées sur la confiance, et l’intérêt commun. Ainsi chaque mission représente pour nous une action unique, bâtie sur mesure pour et avec notre client, dans le strict respect de ses exigences et dans la satisfaction de ses attentes.</p>
-        <h3>Compétitivité :</h3>
-        <p>&nbsp;&nbsp;&nbsp;Grace à notre approche, nos moyens et notre réseau, nous vous assurons une prestation de qualité à des coûts maîtrisés.</p>
-        <h3>Engagement :</h3>
-        <p>&nbsp;&nbsp;&nbsp;Nous mobilisons l’ensemble de nos équipes & moyens pour la réalisation de nos prestations.</p>
-        <h3>Qualité :</h3>
-        <p>&nbsp;&nbsp;&nbsp;Nous misons sur la disponibilité et les talents de notre équipe afin de vous garantir une prestation avec les meilleurs standards du métier. Grace à notre approche, nos moyens et notre réseau, nous vous assurons une prestation de qualité à des coûts maitrisés.</p>
-        <h3>Confidentialité :</h3>
-        <p>&nbsp;&nbsp;&nbsp;Nous vous accompagnons sur l’ensemble des prestations que nous offrons dans le strict respect du secret et de l’éthique.</p>
+        <p>&nbsp;&nbsp;&nbsp;Récemment crée en 2024, la société nommée Eurl <b>El Djazairia Likhadamat el Idaria Moutaadida</b> avec les initiales <b>EDLIM</b> composé d’une équipe de professionnel résultant de longues années d’expériences et d’expertises aux seins de différents entreprises publique ou privée en incluant les multinationales. Afin de permettre aux entreprises leurs lancements ou restructurations fondamentales que nécessitent le monde économique de la place.</p>
+        <p>&nbsp;&nbsp;&nbsp;Nous assurons l’accompagnement sur mesure dans les métiers suivants :</p>
       </div>
       <div class="about_article" id="about_team">
         <h2>Notre équipe</h2>
-        &nbsp;&nbsp;&nbsp;Le cabinet Global Management Service, met en oeuvre une organisation client souple, réactive et disponible qui s'appuie sur une équipe :
+        &nbsp;&nbsp;&nbsp;EDLIM adopte une structure client flexible, réactive et accessible, soutenue par une équipe :
         <ul class="about_list">
-          <li>De juristes spécialisés en droit du travail, droit de la sécurité sociale,</li>
-          <li>De consultants formateur en administration des ressources humaines</li>
-          <li>De spécialistes du chiffre et de l’optimisation des couts salariaux</li>
-          <li>De spécialistes de la gestion administrative du personnel</li>
-          <li>De correspondants spécialisé CNAS, CNR, ANEM, inspection de travail</li>
-          <li>De gestionnaires de paie confirmés</li>
+          <li>Ressources Humaines</li>
+          <li>Conseil Juridique & Recouvrement</li>
+          <li>Banque et Assistance</li>
+          <li>Comptabilité et traitement des déclarations</li>
+          <li>Conception de site web </li>
         </ul>
-        <p>&nbsp;&nbsp;&nbsp;GMS est aussi accompagné et soutenu par une équipe de <b>consultants externes</b> qui interviennent dans tous les domaines de compétences du Cabinet</p>
-        <p>&nbsp;&nbsp;&nbsp;GMS possède les compétences, les ressources et le savoir-faire nécessaires pour relever vos défis en matière d’administration des ressources humaines.</p>
+      </div>
+      <div class="about_article" id="about_values">
+        <h2>NOS PRINCIPES</h2>
+        <p>&nbsp;&nbsp;&nbsp;Chez EDLIM, Nos principes fondamentaux sont la compétence, l'accessibilité, le soutien et les résolutions. Nous sommes une équipe hautement qualifiée, facilement accessible pour répondre à vos besoins, vous offrir un soutien constant et trouver des solutions efficaces à vos défis.</p>
+        <h3>Compétence :</h3>
+        <p>&nbsp;&nbsp;&nbsp;Notre équipe est composée de professionnels hautement qualifiés et expérimentés dans leur domaine respectif. Leur expertise leur permet d'apporter des solutions efficaces et innovantes à vos besoins.</p>
+        <h3>Accessibilité :</h3>
+        <p>&nbsp;&nbsp;&nbsp;Nous nous engageons à être facilement accessibles pour nos clients. Que ce soit par téléphone, par e-mail ou en personne, nous sommes là pour répondre à vos questions, discuter de vos préoccupations et vous fournir l'assistance dont vous avez besoin, quand vous en avez besoin.</p>
+        <h3>Soutien:</h3>
+        <p>&nbsp;&nbsp;&nbsp;Nous croyons en un soutien constant et attentif à nos clients. De la première prise de contact jusqu'à la réalisation de votre projet, nous sommes à vos côtés pour vous guider, vous conseiller et vous soutenir à chaque étape du processus.</p>
+        <h3>Résolutions :</h3>
+        <p>&nbsp;&nbsp;&nbsp;Notre engagement est de trouver des solutions adaptées à vos défis. Nous sommes déterminés à résoudre vos problèmes de manière efficace et à vous aider à atteindre vos objectifs. En cas de difficultés, nous mettons tout en œuvre pour trouver des alternatives et des solutions créatives pour garantir votre satisfaction.</p>
       </div>
     </div>
   </div>

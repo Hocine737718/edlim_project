@@ -22,7 +22,7 @@
         padding: 10px;
     }
     .statistics_body{
-        text-align: -webkit-auto;
+        text-align: center;
     }
 }
 @media screen and (max-width: 565px) {
@@ -33,17 +33,25 @@
         height:220px;
     }
 }
-@media screen and (max-width: 491px) {
+@media screen and (max-width: 500px) {
+    .statistics_body {
+        font-size: var(--font-size-3);
+    }
     .statistics_header{
-        font-size: 1.5rem;
+        font-size: var(--font-size-6);
     }
     .statistics_body,.statistics_box {
         row-gap: 5px;
     }
     .statistics_box {
-        padding: 1rem 0.5rem;
+        padding: 1rem 0rem;
     }
     .statistics_chart{
         height:180px;
+    }
+    .statistics_body {
+        text-align: justify;
+        letter-spacing: 0;
+        padding: 10px;
     }
 }

@@ -21,11 +21,11 @@ axios.interceptors.request.use((config) => {
 });
 axios.interceptors.response.use(
     (response) => {
-      //Swal.close();
+      Swal.close();
       return response;
     },
     (error) => {
-      //Swal.close();
+      Swal.close();
       return Promise.reject(error);
     }
 );

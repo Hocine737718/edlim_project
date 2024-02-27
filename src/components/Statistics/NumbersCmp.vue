@@ -20,6 +20,7 @@ export default {
             legendText: "{label}",
             /*yValueFormatString: "#,##0K",*/
             toolTipContent: "<span style='\"'color: {color};'\"'>{label}</span>: {y} services",
+            indexLabelFontSize: 16,
             dataPoints: [],
           }]
         },
@@ -48,6 +49,23 @@ export default {
           });
         }
         this.chart.render();
+
+        let mediaQuery = window.matchMedia('(max-width: 500px)');
+        if (mediaQuery.matches) {
+          this.chart.options.data[0].indexLabelFontSize=12;
+          this.chart.render();
+        } 
+        else {
+          console.log('Media query does not match');
+        }
+        mediaQuery = window.matchMedia('(max-width: 465px)');
+        if (mediaQuery.matches) {
+          this.chart.options.data[0].indexLabelFontSize=10;
+          this.chart.render();
+        } 
+        else {
+          console.log('Media query does not match');
+        }
     }
 
 }

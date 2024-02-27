@@ -75,7 +75,7 @@
 }  
 .nav_link:hover {
     color: var(--blue-color);
-    opacity: 0.85;
+    filter: opacity(0.5);
 }
 .show-menu {
     opacity: 1;
@@ -118,7 +118,7 @@
 .dropdown_link:hover, 
 .dropdown_sublink:hover {
     color: var(--blue-color);
-    opacity: 0.93;
+    filter: brightness(0.8);
 }  
 .dropdown_menu, 
 .dropdown_submenu {

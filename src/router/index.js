@@ -22,6 +22,11 @@ const routes = [
     name: 'ressources-humaines',
     component:  () => import('@/views/Articles/HrView.vue')
   },
+  {
+    path: '/article/banque',
+    name: 'banque',
+    component:  () => import('@/views/Articles/BankView.vue')
+  },
   /*{
     path: '/candidature-spontanee',
     name: 'candidature-spontanee',

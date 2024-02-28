@@ -15,8 +15,38 @@ const routes = [
   {
     path: '/statistiques',
     name: 'statistiques',
-    component: () => import('@/views/StatisticsView.vue')
-  }
+    component:  () => import('@/views/StatisticsView.vue')
+  },
+  /*{
+    path: '/candidature-spontanee',
+    name: 'candidature-spontanee',
+    component:  () => import('@/views/Articles/ApplicationFormView.vue')
+  },
+  {
+    path: '/offres-emploi',
+    name: 'offres-emploi',
+    component:  () => import('@/views/Articles/JobOffersView.vue')
+  },
+  {
+    path: '/offres/drh',
+    name: '/offres/drh',
+    component:  () => import('@/views/Articles/DrhView.vue')
+  },
+  {
+    path: '/contact',
+    name: '/contact',
+    component:  () => import('@/views/Articles/ContactView.vue')
+  },
+  {
+    path: '/devis',
+    name: '/devis',
+    component:  () => import('@/views/Articles/QuoteView.vue')
+  },*/
+  {
+    path : '/:catchAll(.*)',
+    name : '/erreur',
+    component : () => import('@/views/ErrorView.vue')
+  },
 ]
 
 const router = createRouter({

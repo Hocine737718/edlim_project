@@ -42,7 +42,7 @@
     20% {
       transform: translateY(-20px)
     }
-  }
+}
 .about_nav{
     display: flex;
     flex-direction: row;

@@ -17,6 +17,11 @@ const routes = [
     name: 'statistiques',
     component:  () => import('@/views/StatisticsView.vue')
   },
+  {
+    path: '/article/ressources-humaines',
+    name: 'ressources-humaines',
+    component:  () => import('@/views/Articles/HrView.vue')
+  },
   /*{
     path: '/candidature-spontanee',
     name: 'candidature-spontanee',

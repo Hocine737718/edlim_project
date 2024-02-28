@@ -41,81 +41,19 @@
           </div>
           <ul class="dropdown_menu">
             <li class="dropdown_subitem">
-              <div class="dropdown_link">
-                <a href="/article/conseil">Conseil</a>
-                <i class="ri-add-line dropdown_add"></i>
-              </div>
-              <ul class="dropdown_submenu">
-                <li>
-                  <a href="/article/droit-travail" class="dropdown_sublink">
-                    Droit de travail
-                  </a>
-                </li>
-                <li>
-                  <a href="/article/droit-securite-sociale" class="dropdown_sublink">
-                    Droit de la sécurité sociale
-                  </a>
-                </li>
-                <li>
-                  <a href="/article/fiscalite-salariale" class="dropdown_sublink">
-                    Fiscalité salariale
-                  </a>
-                </li>
-                <li>
-                  <a href="/article/optimisation-salariale" class="dropdown_sublink">
-                    Optimisation salariale
-                  </a>
-                </li>
-              </ul>
+              <a href="/article/ressources-humaines" class="dropdown_link">Ressources Humaines</a>
             </li>
-
             <li class="dropdown_subitem">
-              <div class="dropdown_link">
-                <a href="/article/admin-rh">Administration RH </a>
-                <i class="ri-add-line dropdown_add"></i> 
-              </div>
-              <ul class="dropdown_submenu">
-                <li>
-                  <a href="/article/gestion-personnel" class="dropdown_sublink">
-                    Gestion Du Personel
-                  </a>
-                </li>
-                <li>
-                  <a href="/article/gestion-paie" class="dropdown_sublink">
-                    Gestion De La Paie
-                  </a>
-                </li>
-                <li>
-                  <a href="/article/correspondance-sociale" class="dropdown_sublink">
-                    Correspondance sociale
-                  </a>
-                </li>
-                <li>
-                  <a href="/article/permis-travail" class="dropdown_sublink">
-                    Permis de travail 
-                  </a>
-                </li>
-              </ul> 
+              <a href="/article/juridique" class="dropdown_link"> Conseil Juridique </a>
             </li>
-
             <li class="dropdown_subitem">
-              <div class="dropdown_link">
-                <a href="/article/audit-rh">Audit de l'administration RH</a>  
-                <i class="ri-add-line dropdown_add"></i>
-              </div>
-              <ul class="dropdown_submenu">
-                <li>
-                  <a href="/article/audit-conformite" class="dropdown_sublink">
-                    Audit de conformité et d’efficacité
-                  </a>
-                </li>
-              </ul>  
+              <a href="/article/banque"  class="dropdown_link">Banque et Assistance </a>
             </li>
-
             <li class="dropdown_subitem">
-              <a href="/article/formation" class="dropdown_link">
-                Formation 
-              </a>
+              <a href="/article/comptabilité" class="dropdown_link"> Comptabilité </a>
+            </li>
+            <li class="dropdown_subitem">
+              <a href="/article/developpement-web" class="dropdown_link"> Conception de site web  </a>
             </li>
           </ul>
         </li>

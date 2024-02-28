@@ -34,7 +34,8 @@
       column-gap: .25rem;
     }
     .nav_link:hover {
-      background-color: transparent;
+      opacity: 1;
+      filter: opacity(0.8);
     }
   
     .dropdown_item, 

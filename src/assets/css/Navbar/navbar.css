@@ -21,7 +21,7 @@
     align-items: center;
 }  
 .nav_logo img {
-    width: --var(--logo-width);
+    width: var(--logo-width);
     height: auto;
 }  
 .nav_toggle {

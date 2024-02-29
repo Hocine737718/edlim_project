@@ -31,7 +31,7 @@
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/HR.jpg" alt="">
+                <img src="../../assets/img/Articles/HR.png" alt="">
             </div>
             <div class="article_content">
                 <h2>Introduction :</h2>

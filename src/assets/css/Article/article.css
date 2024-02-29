@@ -25,7 +25,7 @@
 }
 .article_title{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: var(--font-size-12);
@@ -34,7 +34,6 @@
     text-transform: uppercase;
     letter-spacing: .5rem;
     text-align: center;
-    -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0,0,0,.6));
 }
 .article_title span{
     position: relative;

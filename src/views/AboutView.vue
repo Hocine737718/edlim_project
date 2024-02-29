@@ -29,7 +29,7 @@
     <div class="about_body" id="about_body">
       <div class="about_article" id="about_history">
         <h2>Historique</h2>
-        <p>&nbsp;&nbsp;&nbsp;Récemment crée en 2024, la société nommée Eurl <b>El Djazairia Likhadamat el Idaria Moutaadida</b> avec les initiales <b>EDLIM</b> composé d’une équipe de professionnel résultant de longues années d’expériences et d’expertises aux seins de différents entreprises publique ou privée en incluant les multinationales. Afin de permettre aux entreprises leurs lancements ou restructurations fondamentales que nécessitent le monde économique de la place.</p>
+        <p>&nbsp;&nbsp;&nbsp;Récemment crée en 2024, la société nommée <b>EURL EL DJAZAIRIA LIKHADAMAT EL IDARIA MOUTAADIDA</b> avec les initiales <b>EDLIM</b> composé d’une équipe de professionnel résultant de longues années d’expériences et d’expertises aux seins de différents entreprises publique ou privée en incluant les multinationales. Afin de permettre aux entreprises leurs lancements ou restructurations fondamentales que nécessitent le monde économique de la place.</p>
         <p>&nbsp;&nbsp;&nbsp;Nous assurons l’accompagnement sur mesure dans les métiers suivants :</p>
       </div>
       <div class="about_article" id="about_team">

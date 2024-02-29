@@ -33,11 +33,10 @@
                 <img src="../../assets/img/Articles/HR.png" alt="">
             </div>
             <div class="article_content">
-                <h2>Introduction :</h2>
                 <p>&nbsp;&nbsp;&nbsp;La législation sociale, qui enveloppe les chapitres suivants :</p>
                 <ul class="article_list">
                     <li style="--j:1">Gestion de la paie.</li>
-                    <li style="--j:2">Gestions des procéder de recrutement et de placement des travailleurs.</li>
+                    <li style="--j:2">Gestions des procédures des recrutements et des placements des travailleurs.</li>
                     <li style="--j:3">Elaborations des contrats de travails sous toutes ses formes.</li>
                     <li style="--j:4">Consultation en droits du travail et de la sécurités sociales.</li>
                     <li style="--j:5">Etablissement de la grille des salaires.</li>

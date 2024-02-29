@@ -11,8 +11,6 @@
                     <span style="--i:6">I</span>
                     <span style="--i:7">L</span>
                     <span style="--i:7">&nbsp;</span>                     
-                </div>
-                <div>
                     <span style="--i:8">J</span> 
                     <span style="--i:9">U</span> 
                     <span style="--i:10">R</span> 
@@ -23,7 +21,23 @@
                     <span style="--i:15">U</span>                   
                     <span style="--i:16">E</span>    
                 </div>
-
+                <div>
+                    <span style="--i:17">&</span> 
+                </div>
+                <div>
+                    <span style="--i:18">R</span> 
+                    <span style="--i:19">E</span> 
+                    <span style="--i:20">C</span> 
+                    <span style="--i:21">O</span>
+                    <span style="--i:22">U</span>
+                    <span style="--i:23">V</span>
+                    <span style="--i:24">R</span>                   
+                    <span style="--i:25">E</span>    
+                    <span style="--i:26">M</span>  
+                    <span style="--i:27">E</span>  
+                    <span style="--i:28">N</span>  
+                    <span style="--i:29">T</span>  
+                </div>
             </div>
         </div>
         <div class="article_body" id="article_body">
@@ -31,15 +45,15 @@
                 <img src="../../assets/img/Articles/HR.png" alt="">
             </div>
             <div class="article_content">
-                <h2>Introduction :</h2>
+                <h2>Conseil Juridique :</h2>
                 <p>&nbsp;&nbsp;&nbsp;Grace à notre expertise dans le domaine des jurisprudences. Nous vous offrons :</p>
                 <ul class="article_list">
                     <li style="--j:1">Conseil et orientation</li>
-                    <li style="--j:2">Rédaction des plaintes et des requêtes.</li>
-                    <li style="--j:3">Rédaction des Ordonnances et des demandes aux profits des différentes administrations.</li>
-                    <li style="--j:4">Nous assurons le volet de recouvrement des créances des entreprises.</li>
-                    <li style="--j:5">Gestion des litiges.</li>
-                    <li style="--j:6">Rédaction de tous types des contrats.</li> 
+                    <li style="--j:2">Rédaction des plaintes, des requêtes et des mises en demeures.</li>
+                    <li style="--j:3">Rédactions des Ordonnances et des demandes aux profits des différentes administrations.</li>
+                    <li style="--j:4">Gestion des litiges.</li>
+                    <li style="--j:5">Rédaction de tous types des contrats.</li> 
+                    <li style="--j:6">Nous assurerons le volet de recouvrement des créances pour les entreprises.</li>
                 </ul>
             </div>
         </div>

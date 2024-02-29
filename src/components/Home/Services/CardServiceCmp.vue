@@ -1,7 +1,8 @@
 <template>
     <div class="services_card">
         <a :href="lien" class="card_icon">
-            <i :class="icon"></i>
+            <i v-if="icon" :class="icon"></i>
+            <img v-if="img" :src="require(`@/assets/icon/${img}`)" alt="icon" style="width:36px;height:36px;">
         </a>
         <div class="card_content">
             <div class="card_content_header">
@@ -20,6 +21,9 @@
 <script>
 export default {
     name: 'CardServiceCmp',
-    props:['icon','header','body','lien']
+    props:['icon','header','body','lien', 'img'],
+    mounted(){
+        console.log("img",this.img);
+    }
 }
 </script>

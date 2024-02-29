@@ -23,7 +23,7 @@
                         </div>
                         <div  class="footer_info">
                             <i class="ri-mail-fill"></i>
-                            <a href="mailto:contact@gms-dz.com">contact@edlim-dz.com</a>
+                            <a href="mailto:contact@edlim-dz.com">contact@edlim-dz.com</a>
                         </div>                        
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                 <p class="copyright">
                     Copyright ©
                     {{this.year}}
-                    El Djazairia Likhadamat el Idaria Moutaadida
+                    EURL EL DJAZAIRIA LIKHADAMAT EL IDARIA MOUTAADIDA
                 </p>
             </div>
         </div>

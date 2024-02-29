@@ -27,14 +27,14 @@
                     </div>
                 </div>
             </swiper-slide>
-            <swiper-slide>
+            <!--swiper-slide>
                 <div class="slider_article article2">
                     <div class="slider_buttons">
                         <a class="slider_button" href="/audit">Audit gratuit</a>
                         <a class="slider_button" href="/devis">Demandez un devis</a>                    
                     </div>
                 </div>
-            </swiper-slide>
+            </swiper-slide-->
             <swiper-slide>
                 <div class="slider_article article3">
                     <div class="slider_titles">

@@ -5,7 +5,7 @@
             <h2>Comment pouvons-nous vous aider ?</h2>
         </div>
         <div class="services_cards">
-            <CardService :icon="card1.icon" :header="card1.header" :body="card1.body" :lien="card1.lien" id="srv_card1"/>
+            <CardService :img="card1.img" :header="card1.header" :body="card1.body" :lien="card1.lien" id="srv_card1"/>
             <CardService :icon="card2.icon" :header="card2.header" :body="card2.body" :lien="card2.lien" id="srv_card2"/>
             <CardService :icon="card3.icon" :header="card3.header" :body="card3.body" :lien="card3.lien" id="srv_card3"/>
         </div>
@@ -24,21 +24,21 @@ export default {
     },
     data(){
         return{
-            card1:{ icon:"ri-pencil-fill",
-                    header:"Conseil",
-                    body:"Le cabinet Global Management Services, met à votre disposition des juristes expérimenté pour vous conseillez et vous accompagnez afin de veiller à votre sécurité judiciaire....",
-                    lien:"/article/conseil"
+            card1:{ img:"icons8-law-32.png",
+                    header:"Conseil Juridique",
+                    body:"Grâce à notre expertise pointue dans le domaine des jurisprudences, nous proposons une gamme complète de services juridiques pour répondre aux besoins variés de nos clients...",
+                    lien:"/article/conseil-juridique"
                   },
-            card2:{ icon:"ri-line-chart-line",
-                    header:"Audit de l'administration RH",
-                    body:"L’audit qu’offre le cabinet Global Management Services, a ces clients a pour but de vérifier la conformité des pratiques liées a l’administration des ressources humaines par rapport aux règles...",
-                    lien:"/article/audit-rh"
+            card2:{ icon:"ri-team-fill",
+                    header:"Ressources Humaines",
+                    body:"La législation sociale englobe une gamme variée de services visant à soutenir les entreprises dans leur gestion des ressources humaines et leur conformité aux lois du travail et de la sécurité sociale...",
+                    lien:"/article/ressources-humaines"
                   },
-            card3:{ icon:"ri-macbook-line",
-                    header:"Administration RH",
-                    body:"Le cabinet Global Management Service, vous propose une gamme complète des prestations dans l’administration des ressources humaines gérées par un service spécialisé dans le domaine...",
-                    lien:"/article/admin-rh"
-                  }
+            card3:{ icon:"ri-bank-fill",
+                    header:"Banque et Assistance",
+                    body:"Nous sommes à l’écoute des nouveautés du marché monétaires et les champs des lois en implications et qui domine le secteur bancaire...",
+                    lien:"/article/banque"
+                  },
         }
     },
     mounted(){

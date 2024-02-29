@@ -58,9 +58,11 @@
     background: var(--yellow-color);
     justify-self: center;
 }
+.card_icon img{
+    transform: translateY(5px);
+}
 .card_icon:hover{
     background-color: var(--blue-color);
-    color: #fff;
 }
 .card_content{
     display: flex;

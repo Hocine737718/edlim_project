@@ -27,6 +27,21 @@ const routes = [
     name: 'banque',
     component:  () => import('@/views/Articles/BankView.vue')
   },
+  {
+    path: '/article/conseil-juridique',
+    name: 'conseil-juridique',
+    component:  () => import('@/views/Articles/LegalAdviceView.vue')
+  },
+  {
+    path: '/article/developpement-web',
+    name: 'developpement-web',
+    component:  () => import('@/views/Articles/WebDevelopmentView.vue')
+  },
+  {
+    path: '/article/comptabilite',
+    name: 'comptabilité',
+    component:  () => import('@/views/Articles/AccountingView.vue')
+  },
   /*{
     path: '/candidature-spontanee',
     name: 'candidature-spontanee',

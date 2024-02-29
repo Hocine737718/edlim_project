@@ -3,29 +3,20 @@
         <div class="article_header">
             <div class="article_title">
                 <div>
-                    <span style="--i:1">R</span>
-                    <span style="--i:2">E</span>
-                    <span style="--i:3">S</span>
-                    <span style="--i:4">S</span>
-                    <span style="--i:5">O</span>
-                    <span style="--i:6">U</span>
-                    <span style="--i:7">R</span>
-                    <span style="--i:8">C</span>
-                    <span style="--i:9">E</span>
-                    <span style="--i:10">S</span> 
-                    <span style="--i:10">&nbsp;</span>                     
+                    <span style="--i:1">C</span>
+                    <span style="--i:2">O</span>
+                    <span style="--i:3">M</span>
+                    <span style="--i:4">P</span>
+                    <span style="--i:5">T</span>
+                    <span style="--i:6">A</span>
+                    <span style="--i:7">B</span>
+                    <span style="--i:8">I</span>
+                    <span style="--i:9">L</span>
+                    <span style="--i:10">I</span> 
+                    <span style="--i:11">T</span> 
+                    <span style="--i:12">É</span> 
+                    <span style="--i:12">&nbsp;</span>                     
                 </div>
-                <div>
-                    <span style="--i:12">H</span> 
-                    <span style="--i:13">U</span> 
-                    <span style="--i:14">M</span> 
-                    <span style="--i:15">A</span> 
-                    <span style="--i:16">I</span>
-                    <span style="--i:17">N</span>
-                    <span style="--i:18">E</span>
-                    <span style="--i:19">S</span>                    
-                </div>
-
             </div>
         </div>
         <div class="article_body" id="article_body">

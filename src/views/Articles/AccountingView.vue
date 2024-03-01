@@ -21,39 +21,39 @@
                     &
                 </div>
                 <div>
-                    <span style="--i:1">T</span>
-                    <span style="--i:2">R</span>
-                    <span style="--i:3">A</span>
-                    <span style="--i:4">I</span>
-                    <span style="--i:5">T</span>
-                    <span style="--i:6">E</span>
-                    <span style="--i:7">M</span>
-                    <span style="--i:8">E</span>
-                    <span style="--i:9">N</span>
-                    <span style="--i:10">T</span> 
-                    <span style="--i:4">&nbsp;</span>
-                    <span style="--i:1">D</span>
-                    <span style="--i:2">E</span>
-                    <span style="--i:3">S</span>
-                    <span style="--i:4">&nbsp;</span>
-                    <span style="--i:5">D</span>
-                    <span style="--i:6">E</span>
-                    <span style="--i:7">C</span>
-                    <span style="--i:8">L</span>
-                    <span style="--i:9">A</span>
-                    <span style="--i:10">R</span>
-                    <span style="--i:10">A</span>   
-                    <span style="--i:10">T</span>                    
-                    <span style="--i:10">I</span>  
-                    <span style="--i:10">O</span>  
-                    <span style="--i:10">N</span>  
-                    <span style="--i:10">S</span>  
+                    <span style="--i:15">T</span>
+                    <span style="--i:16">R</span>
+                    <span style="--i:17">A</span>
+                    <span style="--i:18">I</span>
+                    <span style="--i:19">T</span>
+                    <span style="--i:20">E</span>
+                    <span style="--i:21">M</span>
+                    <span style="--i:22">E</span>
+                    <span style="--i:23">N</span>
+                    <span style="--i:24">T</span> 
+                    <span style="--i:24">&nbsp;</span>
+                    <span style="--i:25">D</span>
+                    <span style="--i:26">E</span>
+                    <span style="--i:27">S</span>
+                    <span style="--i:28">&nbsp;</span>
+                    <span style="--i:29">D</span>
+                    <span style="--i:30">E</span>
+                    <span style="--i:31">C</span>
+                    <span style="--i:32">L</span>
+                    <span style="--i:33">A</span>
+                    <span style="--i:34">R</span>
+                    <span style="--i:35">A</span>   
+                    <span style="--i:36">T</span>                    
+                    <span style="--i:37">I</span>  
+                    <span style="--i:38">O</span>  
+                    <span style="--i:39">N</span>  
+                    <span style="--i:40">S</span>  
                 </div>
             </div>
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/accounting.png" alt="">
+                <img src="@/assets/img/Articles/accounting.png" alt="">
             </div>
             <div class="article_content">
                 <p>&nbsp;&nbsp;<i class="ri-play-fill"></i>&nbsp;Notre équipe d’expert dynamique, basée sur leurs longues années d’expériences dans les différents cabinets de comptabilités, voudra prendre le volet le plus lourds pour les entreprises afin de prévoir leurs santés financières :</p>

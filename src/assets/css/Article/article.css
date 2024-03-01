@@ -43,7 +43,7 @@
 .article_title span{
     position: relative;
     display: inline-block;
-    animation: waviy 3.5s infinite;
+    animation: waviy 4.5s infinite;
     animation-delay: calc(0.1s * var(--i));
 }
 @keyframes waviy {

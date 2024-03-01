@@ -42,7 +42,7 @@
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/legal-advice.png" alt="">
+                <img src="@/assets/img/Articles/legal-advice.png" alt="">
             </div>
             <div class="article_content">
                 <p>&nbsp;&nbsp;<i class="ri-shining-fill"></i>&nbsp;Grace à notre expertise dans le domaine des jurisprudences. Nous vous offrons :</p>

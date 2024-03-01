@@ -30,7 +30,7 @@
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/bank.png" alt="">
+                <img src="@/assets/img/Articles/bank.png" alt="">
             </div>
             <div class="article_content">
                 <p>&nbsp;&nbsp;<i class="ri-arrow-right-s-line"></i>&nbsp;Nous sommes à l’écoute des nouveautés du marché monétaires et les champs des lois en implications et qui domine le secteur bancaire, dû à nos années d’expériences dans ce segment :</p>

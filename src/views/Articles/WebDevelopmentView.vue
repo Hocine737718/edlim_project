@@ -37,7 +37,7 @@
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/web.png" alt="">
+                <img src="@/assets/img/Articles/web.png" alt="">
             </div>
             <div class="article_content">
                 <p>&nbsp;&nbsp;<i class="ri-asterisk"></i>&nbsp;Nous offrons :</p>

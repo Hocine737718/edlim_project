@@ -27,14 +27,6 @@
                     </div>
                 </div>
             </swiper-slide>
-            <!--swiper-slide>
-                <div class="slider_article article2">
-                    <div class="slider_buttons">
-                        <a class="slider_button" href="/audit">Audit gratuit</a>
-                        <a class="slider_button" href="/devis">Demandez un devis</a>                    
-                    </div>
-                </div>
-            </swiper-slide-->
             <swiper-slide>
                 <div class="slider_article article3">
                     <div class="slider_titles">
@@ -42,10 +34,10 @@
                             EDLIM, votre partenaire pour la croissance de votre entreprise.
                         </div>
                         <div class="slider_second_title">
-                            Assistance Administrative - Assistance Juridique - Audit de Conformité & de Performace
+                           Nous offrons des assistances administratives, jurdiques, audit ...
                         </div>
                         <a href="/qui-somme-nous" class="slider_button">
-                            LIRE PLUS
+                            Lire Plus
                         </a>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="article">
+    <div class="article hr">
         <div class="article_header">
             <div class="article_title">
                 <div>
@@ -16,24 +16,24 @@
                     <span style="--i:10">&nbsp;</span>                     
                 </div>
                 <div>
-                    <span style="--i:12">H</span> 
-                    <span style="--i:13">U</span> 
-                    <span style="--i:14">M</span> 
-                    <span style="--i:15">A</span> 
-                    <span style="--i:16">I</span>
-                    <span style="--i:17">N</span>
-                    <span style="--i:18">E</span>
-                    <span style="--i:19">S</span>                    
+                    <span style="--i:15">H</span> 
+                    <span style="--i:16">U</span> 
+                    <span style="--i:17">M</span> 
+                    <span style="--i:18">A</span> 
+                    <span style="--i:19">I</span>
+                    <span style="--i:20">N</span>
+                    <span style="--i:21">E</span>
+                    <span style="--i:22">S</span>                    
                 </div>
 
             </div>
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/HR.png" alt="">
+                <img src="../../assets/img/Articles/hr.png" alt="">
             </div>
             <div class="article_content">
-                <p>&nbsp;&nbsp;&nbsp;La législation sociale, qui enveloppe les chapitres suivants :</p>
+                <p>&nbsp;&nbsp;<i class="ri-check-line">&nbsp;</i>La législation sociale, qui enveloppe les chapitres suivants :</p>
                 <ul class="article_list">
                     <li style="--j:1">Gestion de la paie.</li>
                     <li style="--j:2">Gestions des procédures des recrutements et des placements des travailleurs.</li>

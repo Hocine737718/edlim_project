@@ -44,13 +44,13 @@
               <a href="/article/ressources-humaines" class="dropdown_link">Ressources Humaines</a>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/conseil-juridique" class="dropdown_link"> Conseil Juridique </a>
+              <a href="/article/conseil-juridique" class="dropdown_link"> Conseil Juridique & Recouvrement </a>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/banque"  class="dropdown_link">Banque et Assistance </a>
+              <a href="/article/banque"  class="dropdown_link">Banque & Assistance </a>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/comptabilite" class="dropdown_link"> Comptabilité </a>
+              <a href="/article/comptabilite" class="dropdown_link"> Comptabilité & traitement des déclarations</a>
             </li>
             <li class="dropdown_subitem">
               <a href="/article/developpement-web" class="dropdown_link"> Conception de site web  </a>

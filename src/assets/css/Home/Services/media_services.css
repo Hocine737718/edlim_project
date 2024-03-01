@@ -5,13 +5,16 @@
     #srv_card2{
         transform: translateY(0px);
     }
+    #srv_card0{
+        display: none;
+    }
     .services_cards{
         grid-template-columns: 1fr;
         row-gap: 3rem;
         padding: 2rem 1rem;
         margin-top: 0rem;
     }
-    .services_card{
+    .services_cards{
         column-gap: 3rem;
     }    
     .home_services {

@@ -1,5 +1,5 @@
 <template>
-    <div class="article">
+    <div class="article legal_advice">
         <div class="article_header">
             <div class="article_title">
                 <div>
@@ -22,31 +22,30 @@
                     <span style="--i:16">E</span>    
                 </div>
                 <div>
-                    <span style="--i:17">&</span> 
+                    &
                 </div>
                 <div>
-                    <span style="--i:18">R</span> 
-                    <span style="--i:19">E</span> 
-                    <span style="--i:20">C</span> 
-                    <span style="--i:21">O</span>
-                    <span style="--i:22">U</span>
-                    <span style="--i:23">V</span>
-                    <span style="--i:24">R</span>                   
-                    <span style="--i:25">E</span>    
-                    <span style="--i:26">M</span>  
-                    <span style="--i:27">E</span>  
-                    <span style="--i:28">N</span>  
-                    <span style="--i:29">T</span>  
+                    <span style="--i:20">R</span> 
+                    <span style="--i:21">E</span> 
+                    <span style="--i:22">C</span> 
+                    <span style="--i:23">O</span>
+                    <span style="--i:24">U</span>
+                    <span style="--i:25">V</span>
+                    <span style="--i:26">R</span>                   
+                    <span style="--i:27">E</span>    
+                    <span style="--i:28">M</span>  
+                    <span style="--i:29">E</span>  
+                    <span style="--i:30">N</span>  
+                    <span style="--i:31">T</span>  
                 </div>
             </div>
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/HR.png" alt="">
+                <img src="../../assets/img/Articles/legal-advice.png" alt="">
             </div>
             <div class="article_content">
-                <h2>Conseil Juridique :</h2>
-                <p>&nbsp;&nbsp;&nbsp;Grace à notre expertise dans le domaine des jurisprudences. Nous vous offrons :</p>
+                <p>&nbsp;&nbsp;<i class="ri-shining-fill"></i>&nbsp;Grace à notre expertise dans le domaine des jurisprudences. Nous vous offrons :</p>
                 <ul class="article_list">
                     <li style="--j:1">Conseil et orientation</li>
                     <li style="--j:2">Rédaction des plaintes, des requêtes et des mises en demeures.</li>

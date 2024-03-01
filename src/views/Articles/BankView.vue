@@ -1,5 +1,5 @@
 <template>
-    <div class="article">
+    <div class="article bank">
         <div class="article_header">
             <div class="article_title">
                 <div>
@@ -8,11 +8,10 @@
                     <span style="--i:3">N</span>
                     <span style="--i:4">Q</span>
                     <span style="--i:5">U</span>
-                    <span style="--i:6">E</span>
-                    <span style="--i:6">&nbsp;</span>
-                    <span style="--i:7">E</span>
-                    <span style="--i:8">T</span> 
-                    <span style="--i:8">&nbsp;</span>                     
+                    <span style="--i:6">E</span>            
+                </div>
+                <div>
+                    &
                 </div>
                 <div>
                     <span style="--i:9">A</span> 
@@ -31,11 +30,10 @@
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/HR.png" alt="">
+                <img src="../../assets/img/Articles/bank.png" alt="">
             </div>
             <div class="article_content">
-                <h2>Introduction :</h2>
-                <p>&nbsp;&nbsp;&nbsp;Nous sommes à l’écoute des nouveautés du marché monétaires et les champs des lois en implications et qui domine le secteur bancaire, dû à nos années d’expériences dans ce segment :</p>
+                <p>&nbsp;&nbsp;<i class="ri-arrow-right-s-line"></i>&nbsp;Nous sommes à l’écoute des nouveautés du marché monétaires et les champs des lois en implications et qui domine le secteur bancaire, dû à nos années d’expériences dans ce segment :</p>
                 <ul class="article_list">
                     <li style="--j:1">Nous assurerons un coaching des entreprises qui exercent dans le domaine IMPORT-EXPORT.</li>
                     <li style="--j:2">Nous assurerons un accompagnement dans le traitement des études technico commerciales.</li>

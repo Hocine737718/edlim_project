@@ -1,5 +1,5 @@
 <template>
-    <div class="article">
+    <div class="article web_development">
         <div class="article_header">
             <div class="article_title">
                 <div>
@@ -16,29 +16,31 @@
                     <span style="--i:10">&nbsp;</span>                     
                 </div>
                 <div>
-                    <span style="--i:12">D</span> 
-                    <span style="--i:13">E</span>                 
+                    <span style="--i:13">D</span>                
+                    <span style="--i:14">E</span>
+                    <span style="--i:15">S</span>
+                    <span style="--i:15">&nbsp;</span>
                 </div>
                 <div>
-                    <span style="--i:14">S</span> 
-                    <span style="--i:15">I</span> 
-                    <span style="--i:16">T</span> 
-                    <span style="--i:14">E</span> 
-                    <span style="--i:15">&nbsp;</span>
-                    <span style="--i:14">W</span> 
-                    <span style="--i:15">E</span> 
-                    <span style="--i:16">B</span>                 
+                    <span style="--i:16">S</span> 
+                    <span style="--i:17">I</span> 
+                    <span style="--i:18">T</span> 
+                    <span style="--i:19">E</span> 
+                    <span style="--i:18">S</span>
+                    <span style="--i:19">&nbsp;</span> 
+                    <span style="--i:20">W</span> 
+                    <span style="--i:21">E</span>    
+                    <span style="--i:22">B</span>               
                 </div>
 
             </div>
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
-                <img src="../../assets/img/Articles/HR.png" alt="">
+                <img src="../../assets/img/Articles/web.png" alt="">
             </div>
             <div class="article_content">
-                <h2>Introduction :</h2>
-                <p>&nbsp;&nbsp;&nbsp;Nous offrons :</p>
+                <p>&nbsp;&nbsp;<i class="ri-asterisk"></i>&nbsp;Nous offrons :</p>
                 <ul class="article_list">
                     <li style="--j:1">Création des sites web et personnalisation des adresses des domaines.</li>
                     <li style="--j:2">Hébergement des sites web dans les plateformes étrangères.</li>

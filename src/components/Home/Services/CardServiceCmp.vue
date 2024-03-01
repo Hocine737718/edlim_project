@@ -21,9 +21,6 @@
 <script>
 export default {
     name: 'CardServiceCmp',
-    props:['icon','header','body','lien', 'img'],
-    mounted(){
-        console.log("img",this.img);
-    }
+    props:['icon','header','body','lien', 'img']
 }
 </script>

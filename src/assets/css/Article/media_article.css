@@ -5,16 +5,10 @@
     }
 }
 @media screen and (max-width: 800px) {
-    .article_title{
-        font-size: var(--font-size-10);
-    }
     .article_body{  
         width: 100%;
         padding: 30px 5px;
         column-gap: 0px;
-    }
-    .article_content{
-        font-size: var(--font-size-3);
     }
     .article_img img{
         min-width: 250px;
@@ -23,36 +17,49 @@
         margin-left: 20px;
     }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
     .article_img img{
         min-width: 200px;
-    }    
+        min-height: 150px;
+    } 
+    .article_title{
+        font-size: var(--font-size-8);
+    }   
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 670px) {
     .article_body{
         padding: 10px 30px;
     }
     .article_img{
         display: none;
     }    
+    .article_content{
+        width: 97%;
+    }
+    .article_title{
+        letter-spacing: 0.3rem;
+    } 
 }
 @media screen and (max-width: 590px) {
-    .article_title{
-        font-size: var(--font-size-8);
-    }
     .article_content h2 {
         font-size: var(--font-size-6);
     }
     .article_content p{
         font-size: var(--font-size-3);
     }
+    .article_content p i{
+        font-size: var(--font-size-3);
+    }
+    .article_content{
+        font-size: var(--font-size-3);
+    }
+    .article_title{
+        font-size: var(--font-size-6);
+    }
 }
 @media screen and (max-width: 500px) {
     .article_header {
         margin-bottom: 10px;
-    }
-    .article_title{
-        font-size: var(--font-size-6);
     }
     .article_content h2 {
         font-size: var(--font-size-6);
@@ -61,16 +68,15 @@
         padding: 0px 10px 10px;
     }
 }
-@media screen and (max-width: 400px) {
-    .article_header{
-        padding-bottom: 20px;
+@media screen and (max-width: 460px) {
+    .accounting .article_title{
+        font-size: var(--font-size-5);
+        letter-spacing: 0.1rem;
     }
-    .article_title{
-        display: flex;
+}
+@media screen and (max-width: 380px) {
+    .web_development .article_title{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: 18px;
-        -webkit-box-reflect: unset;
+        padding: 0px;
     }
 }

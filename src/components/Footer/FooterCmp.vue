@@ -28,12 +28,11 @@
                     </div>
                 </div>
                 <div class="footer_col">
-                    <h2>Liens Utiles</h2>
+                    <h2>Téléchagements</h2>
                     <div class="footer_links">
-                        <a href="/article/droit-travail">Droit de travail</a>
-                        <a href="/article/droit-securite-sociale">Droit de la sécurité sociale</a>
-                        <a href="/article/fiscalite-salariale">Fiscalité salariale </a>
-                        <a href="/article/audit-rh">L'audit de l'administration RH</a>
+                        <a href="#"  @click="download('Droit de Travail.pdf')" >Droit de travail</a>
+                        <a href="#" @click="download('Droit de la securite sociale.pdf')">Droit de la sécurité sociale</a>
+                        <a href="#" @click="download('Séminaires.pdf')">Séminaires </a>
                     </div>
                 </div>
                 <div class="footer_col">
@@ -41,7 +40,7 @@
                     <div class="footer_links">
                         <a href="/">Accueil</a>
                         <a href="/qui-somme-nous">Qui sommes nous</a>
-                        <a href="/article/formation">Formations</a>
+                        <a href="/statistiques">Statistiques</a>
                         <a href="/contact">Contact</a>
                     </div>
                 </div>
@@ -65,6 +64,11 @@ export default {
     data(){
         return{
             year: new Date().getFullYear()
+        }
+    },
+    methods:{
+        async download(filename){
+            this.$store.dispatch('download',filename);
         }
     }
 }

@@ -13,11 +13,11 @@
     align-items: center;
     justify-content: center;
     row-gap: 20px;
-    padding: 40px 200px 50px;
+    padding: 20px 200px 20px;
     margin-bottom: 30px;
     text-align: center;
     width: 100%;
-    background-image: url('../../img/bg/bg-blue.jpg');
+    background-image: url('../../img/bg/bg-blue.png');
     background-position: center;
     position: relative;
     border-bottom-left-radius: 50% 20%;
@@ -28,18 +28,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: var(--font-size-12);
+    row-gap: 20px;
+    font-size: var(--font-size-9);
     font-weight: var(--font-bolder);
     color: var(--yellow-color);
     text-transform: uppercase;
     letter-spacing: .5rem;
     text-align: center;
 }
+.hr .article_title,.web_development .article_title{
+    flex-direction: row;
+    padding: 10px 0px;
+}
 .article_title span{
     position: relative;
     display: inline-block;
-    animation: waviy 2s infinite;
-    animation-delay: calc(.1s * var(--i));
+    animation: waviy 3.5s infinite;
+    animation-delay: calc(0.1s * var(--i));
 }
 @keyframes waviy {
     0%,40%,100% {
@@ -82,13 +87,14 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-right: 30px;
     width: 40%;
 }
 .article_img img{
     min-width: 300px;
-    width: 70%;
+    min-height: 225px;
+    width: 80%;
     height: auto;
     max-height: calc(100vh - 140px);
     border-radius: var(--border-radius);
@@ -103,11 +109,16 @@
 .article_content{
     line-height: 1.5;
     font-size: var(--font-size-4);
+    width: 60%;
 }
 .article_content p{
     line-height: 1.5;
     font-size: var(--font-size-4);
     text-align: -webkit-auto;
+}
+.article_content p i{
+    font-size: var(--font-size-4);
+    font-weight: var(--font-semi-bold);
 }
 .article_content p:not(:last-child){
     margin-bottom: 1rem;
@@ -125,7 +136,7 @@
     row-gap: 0.5rem;
 }
 .article_list li{
-	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(1.5s + var(--j)*1s) both;
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(1.5s + var(--j)*0.8s) both;
     animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(1.5s + var(--j)*0.8s) both;
 }
 .article_btn{

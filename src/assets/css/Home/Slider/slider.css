@@ -15,7 +15,7 @@
     background-image: url("../../../img/bg/bg-help.png");
 }
 .article2{
-    background-image: url("../../../img/bg/bg-services.png");
+    background-image: url("../../../img/bg/bg-help.png");
 }
 .article3{
     background-image: url("../../../img/bg/bg-buisness.png");
@@ -59,12 +59,12 @@
     justify-content: center;
     flex-direction: column;
     row-gap: 20px;   
-    background-color: rgba(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.75); 
     height: 100%;
     width: 100%;
 }
 .article3 .slider_titles{
-    background-color: rgba(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.75); 
 }
 .slider_first_title{
     font-size: var(--font-size-10);

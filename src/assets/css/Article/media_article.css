@@ -41,6 +41,9 @@
     } 
 }
 @media screen and (max-width: 590px) {
+    .article_nav_item{
+        font-size: var(--font-size-3);
+    }
     .article_content h2 {
         font-size: var(--font-size-6);
     }
@@ -66,6 +69,9 @@
     }
     .article_body {
         padding: 0px 10px 10px;
+    }
+    .article_btn {
+        width: 100px;
     }
 }
 @media screen and (max-width: 460px) {

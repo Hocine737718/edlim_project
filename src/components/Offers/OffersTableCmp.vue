@@ -11,30 +11,32 @@
                 <option value="0">Tout</option>
             </select>
 		</div>
-        <table class="offers_table">
-            <thead>
-                <tr>
-                    <th class="offers_th" v-for="col in columns" :key="col.field" @click="sort(col.field,$event)">
-                        <div>
-                            {{col.title}}
-                            <span class="icon-arrow">&UpArrow;</span>
-                        </div>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr v-if="lineSet.length==0">
-                    <td class="offers_td" style="text-align: center;width:100%;min-width: 800px;" :colspan="columns.length">Aucun résultat trouvé.</td>
-                </tr>
-                <tr v-for="line in lineSet" :key="line.id">
-                    <td class="offers_td" v-for="column in columns" :key="column.field">
-                        <a v-if="column.field=='title'" :href="line['link']" class="offers_link" @click="click">{{ line[column.field] }}</a>
-                        <span v-else-if="column.field=='clicks'" class="badge">{{ line[column.field] }}</span>
-                        <span v-else>{{ line[column.field] }}</span>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="offers_table">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="offers_th" v-for="col in columns" :key="col.field" @click="sort(col.field,$event)">
+                            <div>
+                                {{col.title}}
+                                <span class="icon-arrow">&UpArrow;</span>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-if="lineSet.length==0">
+                        <td class="offers_td" style="text-align: center;width:100%;min-width: 800px;" :colspan="columns.length">Aucun résultat trouvé.</td>
+                    </tr>
+                    <tr v-for="line in lineSet" :key="line.id">
+                        <td class="offers_td" v-for="column in columns" :key="column.field">
+                            <a v-if="column.field=='title'" :href="line['link']" class="offers_link" @click="click(line['id'])">{{ line[column.field] }}</a>
+                            <span v-else-if="column.field=='clicks'" class="badge">{{ line[column.field] }}</span>
+                            <span v-else>{{ line[column.field] }}</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </template>
 <script>
@@ -94,8 +96,8 @@ export default {
                 head.classList.toggle('desc', this.sortOrder==="desc" );
             }
         },
-        async click(){
-            this.$store.dispatch('add_click',2);  
+        async click(id){
+            this.$store.dispatch('add_click',id);  
         }        
     }
 }

@@ -1,56 +1,74 @@
 .application{
-    margin-top: var(--header-height);
-    background-size: cover;
-    background-position: center;
-    background-image: url("../../img/bg/bg.png");
-    min-height: calc(100vh - var(--header-height));
+    background-color:var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 .application button{
     padding: 10px 20px;
-    font-size: 1.15rem;
-    border-radius: 20px;
+    font-size: var(--font-size-6);
+    border-radius: var(--border-radius);
     width:fit-content;
-}
-.application_back{
-    background-color:var(--back-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    justify-content: flex-start;
-    min-height: calc(100vh - var(--header-height));
-    padding: 30px 70px;
 }
 .application_header{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;    
-    row-gap: 10px;
-    padding: 20px 60px;
-    width: 95%;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 200px 50px;
+    margin-bottom: 30px;
+    row-gap: 50px;
+    width: 100%;
+    background-image: url('../../img/bg/bg-blue.png');
+    background-position: center;
+    position: relative;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
 }
 .application_title{
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: var(--font-size-12);
+    font-weight: var(--font-bolder);
+    color: var(--yellow-color);
     text-transform: uppercase;
+    -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0,0,0,.6));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+}
+.application_title span{
+    position: relative;
+    display: inline-block;
+    animation: waviy 4s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
 }
 .application_header p{
-    font-size: 1rem;
+    font-size: var(--font-size-6);
+    color: #fff;
+    text-align: center;
 }
 .application_body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    row-gap: 10px;
-    width: 95%;
+    row-gap: 30px;
+    width: 90%;
     padding: 0 20px;
 }
 .application_box{
     display: flex;
     flex-direction: row;
     column-gap: 15px;
-    font-size: 1.15rem;
-    padding: 20px;
+    font-size: var(--font-size-6);
     width:100%;
 }
 .application_label{
@@ -63,15 +81,15 @@
 }
 .required{
     color: red;
-    font-size: 1.15rem;
-    font-weight: 700;
+    font-size: var(--font-size-7);
+    font-weight: var(--font-semi-bold);
 }
 .application_input{
     border:2px black solid;
-    border-radius: 20px;
-    width: 700px;
-    padding: 10px 15px;
-    font-size: 1.15rem;
+    border-radius: var(--border-radius);
+    width: 900px;
+    padding: 10px 20px;
+    font-size: var(--font-size-6);
     resize: none;
     height: 46px;
 }
@@ -79,7 +97,7 @@
     height: auto;
 }
 .application_input:focus{
-    border-color: red;
+    border-color: var(--blue-color);
 }
 .application_box span{
     display: flex;
@@ -90,12 +108,12 @@
     display: flex;
     flex-direction: row;
     row-gap: 10px;
-    background-color: #e2e2e2;
-    color: black;
+    background-color: var(--smoke-color);
+    color: var(--black-color);
 }
 .application_box button:hover{
-    border: 1px red solid;
-    background-color: rgb(255, 75, 75);
+    border: 1px var(--blue-color) solid;
+    background-color: var(--blue-color-light);
 }
 .applcation_footer{
     display: flex;
@@ -104,11 +122,11 @@
     width:700px;
 }
 .applcation_footer button{
-    background-color: var(--first-color);
-    color: white;
+    background-color: var(--blue-color);
+    color: #fff;
 }
 .applcation_footer button:hover{
-    background-color: var(--first-color-light);
+    background-color: var(--blue-color-light);
 }
 .application_file{
     display: flex;

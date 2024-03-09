@@ -6,6 +6,7 @@
     --black-color: black;
     --black-color-light: rgb(23,28,38);
 
+    --blue-color-dark:blue;
     --blue-color:rgb(20,116,176);
     --blue-color-light:rgb(93, 193, 255);
 
@@ -16,8 +17,6 @@
     --white-color: rgba(255,255,255,0.65);
     --smoke-color:rgb(219, 219, 219);
     --smoke-color-light:rgb(219, 219, 219,0.95);
-
-    --back-color: rgb(255 254 171 / 90%);
 
     --body-font: "Montserrat", sans-serif;
 

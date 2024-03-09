@@ -46,32 +46,26 @@ const routes = [
   {
     path: '/candidature-spontanee',
     name: 'candidature-spontanee',
-    //component:  () => import('@/views/Articles/ApplicationFormView.vue')
-    component:  () => import('@/views/InProgressView.vue')
+    component:  () => import('@/views/ApplicationFormView.vue')
+    //component:  () => import('@/views/InProgressView.vue')
   },
   {
     path: '/offres-emploi',
     name: 'offres-emploi',
-    //component:  () => import('@/views/Articles/JobOffersView.vue')
-    component:  () => import('@/views/InProgressView.vue')
+    component:  () => import('@/views/JobOffersView.vue')
+    //component:  () => import('@/views/InProgressView.vue')
   },
   {
-    path: '/offres/drh',
-    name: '/offres/drh',
-    //component:  () => import('@/views/Articles/DrhView.vue')
-    component:  () => import('@/views/InProgressView.vue')
+    path: '/offres/tech-sup-info',
+    name: '/offres/tech-sup-info',
+    component:  () => import('@/views/Articles/Offers/ComputerTechView.vue')
+    //component:  () => import('@/views/InProgressView.vue')
   },
   {
     path: '/contact',
     name: '/contact',
-    //component:  () => import('@/views/Articles/ContactView.vue')
-    component:  () => import('@/views/InProgressView.vue')
-  },
-  {
-    path: '/devis',
-    name: '/devis',
-    //component:  () => import('@/views/Articles/QuoteView.vue')
-    component:  () => import('@/views/InProgressView.vue')
+    component:  () => import('@/views/ContactView.vue')
+    //component:  () => import('@/views/InProgressView.vue')
   },
   {
     path : '/:catchAll(.*)',

@@ -1,58 +1,107 @@
 .contact{
     margin-top: var(--header-height);
-    background-size: cover;
-    background-position: center;
-    background-image: url("../../img/bg/bg.png");
-    min-height: calc(100vh - var(--header-height));    
-}
-.contact_back{
-    margin-top: var(--header-height);
-    background-color:var(--back-color);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;  
-    justify-content: center;
-    padding: 80px 20px;
-    column-gap: 20px;
-    min-height: calc(100vh - var(--header-height)); 
-}
-.contact_data{
+    min-height: calc(100vh - var(--header-height));
+    background-color: var(--white-color);
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    align-items: center;  
+    justify-content: flex-start;
 }
-.contact_subtitle{
-    font-size: 1.35rem;
-    line-height: 1.5;
-    font-weight: 700;
-    color: black;
+.contact_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 200px 50px;
+    margin-bottom: 30px;
+    row-gap: 50px;
+    width: 100%;
+    background-image: url('../../img/bg/bg-blue.png');
+    background-position: center;
+    position: relative;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
 }
-.contact_description{
-    font-size: 1.15rem;
-    font-weight: 400;
-    color: black;    
+.contact_title{
+    font-size: var(--font-size-12);
+    font-weight: var(--font-bolder);
+    color: var(--yellow-color);
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    text-align: center;
+    -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0,0,0,.6));
 }
-.contact_form{
-    text-align: left;
+.contact_title span{
+    position: relative;
+    display: inline-block;
+    animation: waviy 3s infinite;
+    animation-delay: calc(.1s * var(--i));
 }
-.contact_title {
-    font-size: 1.75rem;
-    margin-bottom: 15px;
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
 }
-.contact_inputs{
+.contact_body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0px 20px 30px;   
+    background-color: #FFF0;
+    width: 85%;
+}
+.contact_content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.contact_intro{
+    font-size: var(--font-size-6);
+    line-height: 1.5;
+    font-weight: var(--font-semi-bold);
+    color: black;
+}
+.contact_data, .contact_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10px;
+    row-gap: 20px;
+    font-size: var(--font-size-6);
+    font-weight: var(--font-regular);
+    color: var(--black-color-light);
+}
+.contact_subtitle{
+    font-size: var(--font-size-6);
+    line-height: 1.5;
+    font-weight: var(--font-semi-bold);
+    color: var(--blue-color-dark);
+    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(0.5s + var(--j)*0.8s) both;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(0.5s + var(--j)*0.8s) both;
+}
+.contact_description{
+    max-width: 270px;
+    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(0.5s + var(--j)*0.8s) both;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(0.5s + var(--j)*0.8s) both;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    row-gap: 20px;
+    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(0.5s + var(--j)*0.8s) both;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) calc(0.5s + var(--j)*0.8s) both;
+}
 .contact_input{
     display: block;
-    padding: 20px;
+    padding: 20px 10px;
     background: none;
-    border: 2px solid black;
-    font-size: 1.15rem;
-    font-weight: 400;
-}
-.contact_input:first-child{
-    border-right-width: 0px;
+    border: 2px solid var(--blue-color);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-regular);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .contact_areas{
     margin-bottom: 20px;
@@ -60,23 +109,23 @@
 .contact_area{
     width:100%;
     resize: none;
-    border: solid black;
-    border-width: 0px 2px 2px 2px!important;
+    border-width: 2px!important;
 }
 .contact_input, .contact_input:focus, .contact_input::placeholder,
 .contact_area, .contact_area:focus, .contact_area::placeholder{
-    color: var(--black-color);
-    background-color: white;
+    color: var(--black-color-light);
+    background-color: #fff;
 }
 .contact_button{
+    width: 90px;
     padding: 15px;
-    font-size: 1.15rem;
+    font-size: var(--font-size-6);
     border-radius: 20px;
-    background-color: var(--first-color-light);
+    background-color: var(--blue-color);
     color: white;
 }
 .contact_button:hover{
-    background-color: var(--first-color-lighten);
+    background-color: var(--blue-color-light);
 }
 .contact_map iframe{
     width: 100%;
@@ -84,3 +133,41 @@
     pointer-events: none;
     position: relative;
 }
+/* ----------------------------------------------
+ * Generated by Animista on 2024-2-28 15:48:16
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation focus-in-expand
+ * ----------------------------------------
+ */
+ @-webkit-keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }

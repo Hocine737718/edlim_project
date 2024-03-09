@@ -32,7 +32,7 @@
 .about_title span{
     position: relative;
     display: inline-block;
-    animation: waviy 2s infinite;
+    animation: waviy 3s infinite;
     animation-delay: calc(.1s * var(--i));
 }
 @keyframes waviy {

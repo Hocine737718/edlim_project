@@ -1,61 +1,93 @@
 .offers{
     margin-top: var(--header-height);
-    background-size: cover;
-    background-position: center;
-    background-image: url("../../img/bg/bg.png");
     min-height: calc(100vh - var(--header-height));
-}
-.offers_back{
-    background-color:var(--back-color);
+    background-color:var(--white-color);
     display: flex;
     flex-direction: column;
     align-items: center;  
     justify-content: flex-start;
-    min-height: calc(100vh - var(--header-height));
-    padding: 30px 70px;
 }
 .offers_header{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;    
-    font-size: 3rem;
-    font-weight: bolder;
-    color: var(--first-color);
-    text-transform: uppercase;    
+    row-gap: 20px;
+    padding: 20px 200px 40px;
+    text-align: center;
+    width: 100%;
+    background-image: url('../../img/bg/bg-blue.png');
+    background-position: center;
+    position: relative;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;  
+}
+.offers_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    font-size: var(--font-size-12);
+    font-weight: var(--font-bolder);
+    color: var(--yellow-color);
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    text-align: center;
+}
+.offers_title span{
+    position: relative;
+    display: inline-block;
+    animation: waviy 2.5s infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
 }
 .offers_body{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;   
+    width: 100%;
+}
+.offers_table{
     display: block;
-    padding: 35px 20px;   
     background-color: #FFF0;
     width: 100%;
     overflow-y: scroll;
 }
-.offers_body::-webkit-scrollbar{
+.offers_table::-webkit-scrollbar{
     width: 0.5rem;
     height: 0.5rem;
 }
-.offers_body::-webkit-scrollbar-thumb{
+.offers_table::-webkit-scrollbar-thumb{
     border-radius: .5rem;
     background-color: #0004;
     visibility: hidden;
 }
-.offers_body:hover::-webkit-scrollbar-thumb{ 
+.offers_table:hover::-webkit-scrollbar-thumb{ 
     visibility: visible;
 }
-.offers_table, .offers_th, .offers_td {
+.offers_table table, .offers_th, .offers_td {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 1rem;
     text-align: left;   
 }
+.offers_table table{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
 .offers_th{
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: var(--font-size-7);
+    font-weight: var(--font-bolder);
     text-transform: uppercase;
-    background-color: var(--first-color-lighten);
-    color: white;
+    background-color: var(--blue-color);
+    color: #fff;
     cursor: pointer;
 }
 .offers_th div{
@@ -64,7 +96,7 @@
     align-items:center;
 }
 .offers_th.active, .offers_th:hover{
-    color: var(--third-color);
+    color: var(--yellow-color-dark);
 }
 .offers_th:first-child, .offers_td:first-child, .offers_th:last-child, .offers_td:last-child{
     text-align: center;
@@ -74,30 +106,30 @@
     min-width: 700px;
 }
 .offers_td{
-    font-size: 1rem;
-    font-weight: 400;
-    background-color: whitesmoke;
+    font-size: var(--font-size-6);
+    font-weight: var(--font-semi-bold);
+    background-color: var(--smoke-color);
 }
 .offers_link:hover{
-    color: blue;
-    font-size: 700;
+    color: var(--blue-color-dark);
     text-decoration: underline;
 }
 .offers_th .icon-arrow{
     display: inline-block;
-    font-size: 1.75rem;   
+    font-size: var(--font-size-9);   
     transition: transform 0.4s;
+    transform: translateY(-2px);
 }
 .offers_th.desc .icon-arrow{
-    transform: rotate(180deg) translateY(-15%) ;
+    transform: rotate(180deg) translateY(-10%) ;
 }
 .badge {
     display: inline-block;
     min-width: 10px;
     padding: 3px 7px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #ffffff;
+    font-size: var(--font-size-6);
+    font-weight: var(--font-bolder);
+    color: #fff;
     line-height: 1;
     vertical-align: baseline;
     white-space: nowrap;
@@ -114,7 +146,7 @@
 }
 .offers_select {
     padding: 5px;
-    font-size: 1rem;
-    border: 2px red solid;
+    font-size: var(--font-size-6);
+    border: 2px var(--blue-color) solid;
     border-radius: 10px;
 }

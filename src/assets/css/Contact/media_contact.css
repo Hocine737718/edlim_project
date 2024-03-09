@@ -1,100 +1,116 @@
-@media screen and (max-width: 980px) {
-    .contact_subtitle{
-        font-size: 1.15rem;
+@media screen and (max-width: 1080px) {
+    .contact_body{
+        padding: 0px 0px 30px;   
+        width: 95%;
     }
-    .contact_description{
-        font-size: 1rem;  
+    .contact_header {
+        padding: 30px 150px 0px;
+        margin-bottom: 20px;
     }
     .contact_title {
-        font-size: 1.5rem;
-    }
-    .contact_input{
-        font-size: 1rem;
-    }
-    .contact_button{
-        font-size: 1rem;
+        -webkit-box-reflect: unset;
+        height: 70px;
     }
 }
-@media screen and (max-width: 862px) {
-    .contact_back{
-        padding: 30px 20px;
-        flex-direction: column;
+@media screen and (max-width: 920px) {
+    .contact_title{
+        font-size: var(--font-size-11);
+    }
+    .contact_body {
+        padding: 0px 0px 10px;
+        row-gap: 0px;
+        width: 95%;
+    }
+    .contact_content {
+        display: grid;
+        grid-template-columns: 1fr;
         row-gap: 20px;
-        align-items: center;
-        justify-content: flex-start;
     }
-    .contact_input{
-        padding: 25px;
-    }
-    .contact_data{
-        width: 90%;
-        row-gap: 30px;
-    }
-    .contact_form{
-        width: 90%;
-    }
-}
-@media screen and (max-width: 610px) {
-    .contact_back{
-        padding: 10px 0px;
-    }
-    .contact_data{
+    .contact_form {
         row-gap: 15px;
     }
-    .contact_subtitle{
-        font-size: 1rem;
+    .contact_intro{
+        text-align: justify;
     }
-    .contact_description{
-        font-size: 0.85rem;  
-    }
-    .contact_title {
-        font-size: 1.15rem;
-        margin-bottom: 5px;
-    }
-    .contact_input{
-        font-size: 0.85rem;
-        padding: 15px;
-    }
-    .contact_button{
-        font-size: 0.85rem;
-    }
-}
-@media screen and (max-width: 472px) {
-    .contact_back {
-        row-gap: 10px;
+    .contact_data, .contact_info{
         text-align: center;
     }
-    .contact_subtitle{
-        font-size: 0.85rem;
-    }
     .contact_description{
-        font-size: 0.75rem;  
-    }
-    .contact_title {
-        font-size: 1rem;
-    }
-    .contact_input{
-        font-size: 0.75rem;
-    }
-    .contact_input:first-child{
-        border: 2px solid black;
-        border-bottom-width: 0px;
-    }
-    .contact_button{
-        font-size: 0.75rem;
-    }
-    .contact_areas {
-        margin-bottom: 10px;
-    }
-    .contact_inputs {
-        display: flex;
-        flex-direction: column;
-    }
-    .contact_form{
-        text-align: center;
-    }
-    .contact_button{
         margin-left: auto;
         margin-right: auto;
+        max-width: 500px;
+    }
+    .contact_button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 780px) {
+    .contact_header {
+        padding: 30px 100px 0px;
+    }
+    .contact_title{
+        font-size: var(--font-size-10);
+    }
+}
+@media screen and (max-width: 650px) {
+    .contact_header {
+        padding: 30px 20px 0px;
+    }
+}
+@media screen and (max-width: 570px) {
+    .contact_intro {
+        font-size: var(--font-size-5);
+    }
+    .contact_subtitle {
+        font-size: var(--font-size-5);
+    }
+    .contact_data, .contact_info {
+        font-size: var(--font-size-5);
+        padding-top: 5px;
+        row-gap: 10px;
+    }
+    .contact_button{
+        font-size: var(--font-size-5);
+    }
+    .contact_input{
+        font-size: var(--font-size-5);
+    }
+}
+@media screen and (max-width: 480px) {
+    .contact_header {
+        padding: 20px 10px 0px;
+    }
+    .contact_title{
+        font-size: var(--font-size-9);
+        letter-spacing: 0.15rem;
+    }
+    .contact_intro {
+        font-size: var(--font-size-4);
+    }
+    .contact_subtitle {
+        font-size: var(--font-size-4);
+    }
+    .contact_data, .contact_info {
+        font-size: var(--font-size-4);
+        padding-top: 5px;
+        row-gap: 10px;
+    }
+    .contact_button{
+        font-size: var(--font-size-4);
+    }
+    .contact_input{
+        font-size: var(--font-size-4);
+    }
+}
+@media screen and (max-width: 374px) {
+    .contact_header {
+        padding: 20px 0px 0px;
+    }
+    .contact_title{
+        letter-spacing: 0.12rem;
+    }
+    .contact_description{
+        max-width: 250px;
     }
 }

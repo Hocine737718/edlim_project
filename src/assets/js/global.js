@@ -26,8 +26,10 @@ export function select_file(id) {
   var file_input = document.getElementById(id);
   file_input.click();
 }
-
 export async function handleFileChange(event){
+  var title="Erreur";
+  var error_type="Erreur de type !";
+  var error_size="Ne dépasse pas 20 Mo !";
   var selected_file="";
   const maxSizeInBytes = 20 * 1024 * 1024;
   try{
@@ -45,24 +47,75 @@ export async function handleFileChange(event){
       ) // For .docx files
       {
         Swal.fire({
-          icon: "error",title: "Erreur",text: "Erreur de type !",
+          icon: "error",title: title,text: error_type,
         }); 
-        throw new Error("Erreur de type !");
+        throw new Error(error_type);
       }
       else if(selected_file.size> maxSizeInBytes)
       {
         Swal.fire({
-          icon: "error",title: "Erreur",text: "Ne dépasse pas 20 Mo !",
+          icon: "error",title: title,text: error_size,
         }); 
-        throw new Error("Ne dépasse pas 20 Mo !");
+        throw new Error(error_size);
       }
-      console.log('selected1',selected_file);
       return selected_file;
     }
     else if(fileList.length > 1)
     {
       Swal.fire({
-        icon: "error",title: "Erreur",text: "Séléctionner un seul fichier seulement !",
+        icon: "error",title: title,text: "Séléctionner un seul fichier seulement !",
+      });
+      return "";
+    }
+  }
+  catch (error) {
+    console.error(error);
+    return "";
+  }
+}
+export async function handleFileChange2(event,lang){
+  var title="Erreur";
+  var error_type="Erreur de type !";
+  var error_size="Ne dépasse pas 20 Mo !";
+  if(lang=="en"){
+    title="Error";
+    error_type="Type Error !";
+    error_size="Do not exceed 20 MB !";
+  }
+  var selected_file="";
+  const maxSizeInBytes = 20 * 1024 * 1024;
+  try{
+    const fileList = event.target.files;
+    if (fileList.length == 1) 
+    {
+      selected_file=fileList[0];
+      if(
+        selected_file.type !== "image/jpeg" && 
+        selected_file.type !== "image/png" &&
+        selected_file.type !== "image/jpg" &&
+        selected_file.type !== "application/pdf" &&
+        selected_file.type !== "application/msword" && // For .doc files
+        selected_file.type !== "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      ) // For .docx files
+      {
+        Swal.fire({
+          icon: "error",title: title,text: error_type,
+        }); 
+        throw new Error(error_type);
+      }
+      else if(selected_file.size> maxSizeInBytes)
+      {
+        Swal.fire({
+          icon: "error",title: title,text: error_size,
+        }); 
+        throw new Error(error_size);
+      }
+      return selected_file;
+    }
+    else if(fileList.length > 1)
+    {
+      Swal.fire({
+        icon: "error",title: title,text: "Séléctionner un seul fichier seulement !",
       });
       return "";
     }

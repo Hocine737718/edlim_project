@@ -123,6 +123,9 @@
     border-radius: 20px;
     background-color: var(--blue-color);
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .contact_button:hover{
     background-color: var(--blue-color-light);

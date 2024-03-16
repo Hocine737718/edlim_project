@@ -3,7 +3,7 @@
   <nav class="nav_container">
     <div class="nav_data">
       <a href="#" class="nav_logo" @click="reload()">
-        <img src="../../assets/img/logo.png" alt="Logo">
+        <img src="../../../assets/img/logo.png" alt="Logo">
       </a> 
       <div class="nav_toggle" id="nav-toggle">
         <i class="ri-menu-line nav_burger"></i>
@@ -14,22 +14,22 @@
     <div class="nav_menu" id="nav-menu">
       <ul class="nav_list">
         <li>
-          <a href="/" class="nav_link">Accueil</a>
+          <a href="/en" class="nav_link">Home</a>
         </li>
 
         <li class="dropdown_item">
-          <a href="/qui-somme-nous" class="nav_link">
-            Qui sommes-nous <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+          <a href="/en/about-us" class="nav_link">
+            About Us <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </a>
           <ul class="dropdown_menu">
             <li>
-              <a href="/qui-somme-nous" class="dropdown_link">
-                Présentation
+              <a href="/en/about-us" class="dropdown_link">
+                Presentation
               </a>
             </li>
             <li>
-              <a href="/statistiques" class="dropdown_link">
-                Statistiques
+              <a href="/en/statistics" class="dropdown_link">
+                Statistics
               </a>
             </li>
           </ul>
@@ -37,40 +37,40 @@
 
         <li class="dropdown_item">
           <div class="nav_link">
-            Nos préstations <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+            Our services <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
             <li class="dropdown_subitem">
-              <a href="/article/ressources-humaines" class="dropdown_link">Ressources Humaines</a>
+              <a href="/en/article/human-resources" class="dropdown_link">Human Resources</a>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/conseil-juridique" class="dropdown_link"> Conseil Juridique & Recouvrement </a>
+              <a href="/en/article/legal-advice" class="dropdown_link">Legal Counseling & Debt Recovery</a>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/banque"  class="dropdown_link">Banque & Assistance </a>
+              <a href="/en/article/bank"  class="dropdown_link">Banking & Assistance</a>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/comptabilite" class="dropdown_link"> Comptabilité & traitement des déclarations</a>
+              <a href="/en/article/accounting" class="dropdown_link">Accounting & Declaration Processing</a>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/developpement-web" class="dropdown_link"> Conception de site web  </a>
+              <a href="/en/article/web-development" class="dropdown_link">Web Development</a>
             </li>
           </ul>
         </li>
 
         <li class="dropdown_item">
           <div class="nav_link">
-            Recrutement <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+            Recruitment <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
             <li>
-              <a href="/offres-emploi" class="dropdown_link">
-                Offres d'emploi
+              <a href="/en/job-offers" class="dropdown_link">
+                Job Offers
               </a>
             </li>
             <li>
-              <a href="/candidature-spontanee" class="dropdown_link">
-                Candidature spontanée
+              <a href="/en/application-form" class="dropdown_link">
+                Application Form
               </a>
             </li>
           </ul>
@@ -78,49 +78,49 @@
 
         <li class="dropdown_item">
           <div class="nav_link">
-            Téléchargement <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+            Downloads <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
             <li>
               <a href="#" class="dropdown_link" @click="download('Droit de Travail.pdf')">
-                Droit de Travail
+                Labor Law
               </a>
             </li>
             <li>
               <a href="#" class="dropdown_link" @click="download('Droit de la securite sociale.pdf')">
-                Droit de la securite sociale
+                Social Security Law
               </a>
             </li>
             <li>
               <a href="#" class="dropdown_link" @click="download('Séminaires.pdf')">
-                Séminaires
+                Seminars
               </a>
             </li>
           </ul>
         </li>
 
         <li>
-          <a href="/contact" class="nav_link">Contact</a>
+          <a href="/en/contact" class="nav_link">Contact</a>
         </li>
 
         <li class="dropdown_item">
           <div class="nav_link">
-            Langues <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+            Languages<i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
             <li>
               <a href="/ar" class="dropdown_link">
-                Arabe
+                Arabic
               </a>
             </li>
             <li>
               <a href="/" class="dropdown_link">
-                Français
+                French
               </a>
             </li>
             <li>
               <a href="/en" class="dropdown_link">
-                Anglais
+                English
               </a>
             </li>
           </ul>

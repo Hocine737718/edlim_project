@@ -31,7 +31,7 @@ export default {
         return {
             columns:[ 
                 { title: 'ID', field: 'id' },
-                { title: 'Title', field: 'title' },
+                { title: 'Title', field: 'title_eng' },
                 { title: 'Clicks', field: 'clicks' }
             ]
         }        

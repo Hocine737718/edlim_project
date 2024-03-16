@@ -12,8 +12,6 @@
                     <span style="--i:7">E</span>
                     <span style="--i:8">R</span>
                     <span style="--i:9">&nbsp;</span>
-                </div>
-                <div>
                     <span style="--i:11">T</span>
                     <span style="--i:12">E</span>
                     <span style="--i:13">C</span>

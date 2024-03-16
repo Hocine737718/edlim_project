@@ -29,7 +29,7 @@
                     </tr>
                     <tr v-for="line in lineSet" :key="line.id">
                         <td class="offers_td" v-for="column in columns" :key="column.field">
-                            <a v-if="column.field=='title'" :href="line['link']" class="offers_link" @click="click(line['id'])">{{ line[column.field] }}</a>
+                            <a v-if="column.field=='title_eng'" :href="line['link_eng']" class="offers_link" @click="click(line['id'])">{{ line[column.field] }}</a>
                             <span v-else-if="column.field=='clicks'" class="badge">{{ line[column.field] }}</span>
                             <span v-else>{{ line[column.field] }}</span>
                         </td>

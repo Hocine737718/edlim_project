@@ -2,13 +2,13 @@
     <div class="home_about" id="home_about">
         <span class="about_h_back">
         <div class="about_h_title">
-            Qui sommes-nous
+            {{$t('Qui sommes-nous')}}
         </div>
         <div class="about_h_content">
             <p>
-                &nbsp;&nbsp;&nbsp;Récemment crée en 2024, la société nommée <b>EURL EL DJAZAIRIA LIKHADAMAT EL IDARIA MOUTAADIDA</b> avec les initiales <b>EDLIM</b> composé d’une équipe de professionnel résultant de longues années d’expériences et d’expertises aux seins de différents entreprises publique ou privée en incluant les multinationales.
+                {{$t('Récemment crée en 2024, la société nommée EURL EL DJAZAIRIA LIKHADAMAT EL IDARIA MOUTAADIDA avec les initiales EDLIM composé d’une équipe de professionnel résultant de longues années d’expériences et d’expertises aux seins de différents entreprises publique ou privée en incluant les multinationales.')}}
             </p>
-            <a href="/qui-somme-nous">Voir plus</a>            
+            <RouterLink to="/qui-somme-nous">{{$t('Voir plus')}}</RouterLink>            
         </div>
 
         </span>

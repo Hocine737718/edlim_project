@@ -16,14 +16,14 @@
                 <div class="slider_article article1">
                     <div class="slider_titles">
                         <div class="slider_first_title">
-                            EDLIM, notre aide pour vos problèmes.
+                            {{$t('EDLIM, notre aide pour vos problèmes.')}}
                         </div>
                         <div class="slider_second_title">
-                            Compétence - Accessibilité - Soutien - Résolutions
+                            {{$t('Compétence - Accessibilité - Soutien - Résolutions')}}
                         </div>
-                        <a href="/qui-somme-nous" class="slider_button">
-                            Explorez-nous
-                        </a>
+                        <RouterLink to="/qui-somme-nous" class="slider_button">
+                            {{$t('Explorez-nous')}}
+                        </RouterLink>
                     </div>
                 </div>
             </swiper-slide>
@@ -31,14 +31,14 @@
                 <div class="slider_article article3">
                     <div class="slider_titles">
                         <div class="slider_first_title">
-                            EDLIM, votre partenaire pour la croissance de votre entreprise.
+                            {{$t('EDLIM, votre partenaire pour la croissance de votre entreprise.')}}
                         </div>
                         <div class="slider_second_title">
-                           Nous offrons des assistances administratives, jurdiques, audit ...
+                            {{$t('Nous offrons des assistances administratives, jurdiques, audit ...')}}
                         </div>
-                        <a href="/qui-somme-nous" class="slider_button">
-                            Lire Plus
-                        </a>
+                        <RouterLink to="/qui-somme-nous" class="slider_button">
+                            {{$t('Lire Plus')}}
+                        </RouterLink>
                     </div>
                 </div>
             </swiper-slide>            

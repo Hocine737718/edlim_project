@@ -3,19 +3,19 @@
         <div class="footer_container">
             <div class="footer_row footer_first_row">
                 <div class="footer_col">
-                    <h2>Sociales</h2>
+                    <h2>{{$t('Sociales')}}</h2>
                     <div class="footer_socials">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="ri-facebook-box-fill"></i></a>
-                        <a href="https://www.instagram.com/" target="_blank"><i class="ri-instagram-fill"></i></a>
-                        <a href="https://twitter.com/" target="_blank"><i class="ri-twitter-x-fill"></i></a>
+                        <RouterLink to="https://www.facebook.com/" target="_blank"><i class="ri-facebook-box-fill"></i></RouterLink>
+                        <RouterLink to="https://www.instagram.com/" target="_blank"><i class="ri-instagram-fill"></i></RouterLink>
+                        <RouterLink to="https://twitter.com/" target="_blank"><i class="ri-twitter-x-fill"></i></RouterLink>
                     </div>
                 </div>
                 <div class="footer_col">
-                    <h2>Informations</h2>
+                    <h2>{{$t('Informations')}}</h2>
                     <div  class="footer_infos">
                         <div  class="footer_info">
                             <i class="ri-home-2-fill"></i>
-                            <span>30, Cité Ben Chaoua, Kheraisia,<br> Alger, Algérie</span>
+                            <span>{{$t('30, Cité Ben Chaoua, Kheraisia,')}}<br> {{$t('Alger, Algérie')}}</span>
                         </div>
                         <div  class="footer_info">
                             <i class="ri-phone-fill"></i>
@@ -23,25 +23,25 @@
                         </div>
                         <div  class="footer_info">
                             <i class="ri-mail-fill"></i>
-                            <a href="mailto:contact@edlim-dz.com">contact@edlim-dz.com</a>
+                            <RouterLink to="mailto:contact@edlim-dz.com">contact@edlim-dz.com</RouterLink>
                         </div>                        
                     </div>
                 </div>
                 <div class="footer_col">
-                    <h2>Téléchagements</h2>
+                    <h2>{{$t('Téléchagements')}}</h2>
                     <div class="footer_links">
-                        <a href="#"  @click="download('Droit de Travail.pdf')" >Droit de travail</a>
-                        <a href="#" @click="download('Droit de la securite sociale.pdf')">Droit de la sécurité sociale</a>
-                        <a href="#" @click="download('Séminaires.pdf')">Séminaires </a>
+                        <RouterLink to="#"  @click="download('Droit de Travail.pdf')" >{{$t('Droit de Travail')}}</RouterLink>
+                        <RouterLink to="#" @click="download('Droit de la securite sociale.pdf')">{{$t('Droit de la securite sociale')}}</RouterLink>
+                        <RouterLink to="#" @click="download('Séminaires.pdf')">{{$t('Séminaires')}} </RouterLink>
                     </div>
                 </div>
                 <div class="footer_col">
-                    <h2>Raccourcis</h2>
+                    <h2>{{$t('Raccourcis')}}</h2>
                     <div class="footer_links">
-                        <a href="/">Accueil</a>
-                        <a href="/qui-somme-nous">Qui sommes nous</a>
-                        <a href="/statistiques">Statistiques</a>
-                        <a href="/contact">Contact</a>
+                        <RouterLink to="/">{{$t('Accueil')}}</RouterLink>
+                        <RouterLink to="/qui-somme-nous">{{$t('Qui sommes-nous')}}</RouterLink>
+                        <RouterLink to="/statistiques">{{$t('Statistiques')}}</RouterLink>
+                        <RouterLink to="/contact">{{$t('Contact')}}</RouterLink>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 <p class="copyright">
                     Copyright ©
                     {{this.year}}
-                    EURL EL DJAZAIRIA LIKHADAMAT EL IDARIA MOUTAADIDA
+                    {{$t('EURL EL DJAZAIRIA LIKHADAMAT EL IDARIA MOUTAADIDA')}}
                 </p>
             </div>
         </div>

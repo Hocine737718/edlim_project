@@ -6,13 +6,13 @@
         </a>
         <div class="card_content">
             <div class="card_content_header">
-                 {{header}}
+                {{$t(header)}}
             </div>
             <div class="card_content_body">
-                {{body}}
+                {{$t(body)}}
             </div>
             <div class="card_content_footer">
-                <a :href="lien">Plus</a>
+                <RouterLink :to="lien">{{$t('Plus')}}</RouterLink>
             </div>
         </div>
     </div>

@@ -2,9 +2,9 @@
 <header class="header">
   <nav class="nav_container">
     <div class="nav_data">
-      <a href="#" class="nav_logo" @click="reload()">
+      <RouterLink to="#" class="nav_logo" @click="reload()">
         <img src="../../assets/img/logo.png" alt="Logo">
-      </a> 
+      </RouterLink> 
       <div class="nav_toggle" id="nav-toggle">
         <i class="ri-menu-line nav_burger"></i>
         <i class="ri-close-line nav_close"></i>
@@ -14,114 +14,114 @@
     <div class="nav_menu" id="nav-menu">
       <ul class="nav_list">
         <li>
-          <a href="/" class="nav_link">Accueil</a>
+          <RouterLink to="/" class="nav_link">{{$t('Accueil')}}</RouterLink>
         </li>
 
         <li class="dropdown_item">
-          <a href="/qui-somme-nous" class="nav_link">
-            Qui sommes-nous <i class="ri-arrow-down-s-line dropdown_arrow"></i>
-          </a>
+          <RouterLink to="/qui-somme-nous" class="nav_link">
+            {{$t('Qui sommes-nous')}} <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+          </RouterLink>
           <ul class="dropdown_menu">
             <li>
-              <a href="/qui-somme-nous" class="dropdown_link">
-                Présentation
-              </a>
+              <RouterLink to="/qui-somme-nous" class="dropdown_link">
+                {{$t('Présentation')}}
+              </RouterLink>
             </li>
             <li>
-              <a href="/statistiques" class="dropdown_link">
-                Statistiques
-              </a>
+              <RouterLink to="/statistiques" class="dropdown_link">
+                {{$t('Statistiques')}}
+              </RouterLink>
             </li>
           </ul>
         </li>
 
         <li class="dropdown_item">
           <div class="nav_link">
-            Nos préstations <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+            {{$t('Nos préstations')}} <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
             <li class="dropdown_subitem">
-              <a href="/article/ressources-humaines" class="dropdown_link">Ressources Humaines</a>
+              <RouterLink to="/article/ressources-humaines" class="dropdown_link">{{$t('Ressources Humaines')}}</RouterLink>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/conseil-juridique" class="dropdown_link"> Conseil Juridique & Recouvrement </a>
+              <RouterLink to="/article/conseil-juridique" class="dropdown_link">{{$t('Conseil Juridique & Recouvrement')}}</RouterLink>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/banque"  class="dropdown_link">Banque & Assistance </a>
+              <RouterLink to="/article/banque"  class="dropdown_link">{{$t('Banque & Assistance')}}</RouterLink>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/comptabilite" class="dropdown_link"> Comptabilité & traitement des déclarations</a>
+              <RouterLink to="/article/comptabilite" class="dropdown_link">{{$t('Comptabilité & traitement des déclarations')}}</RouterLink>
             </li>
             <li class="dropdown_subitem">
-              <a href="/article/developpement-web" class="dropdown_link"> Conception de site web  </a>
+              <RouterLink to="/article/developpement-web" class="dropdown_link">{{$t('Conception de site web')}}</RouterLink>
             </li>
           </ul>
         </li>
 
         <li class="dropdown_item">
           <div class="nav_link">
-            Recrutement <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+            {{$t('Recrutement')}} <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
             <li>
-              <a href="/offres-emploi" class="dropdown_link">
-                Offres d'emploi
-              </a>
+              <RouterLink to="/offres-emploi" class="dropdown_link">
+                {{$t('Offres d\'emploi')}}
+              </RouterLink>
             </li>
             <li>
-              <a href="/candidature-spontanee" class="dropdown_link">
-                Candidature spontanée
-              </a>
+              <RouterLink to="/candidature-spontanee" class="dropdown_link">
+                {{$t('Candidature spontanée')}}
+              </RouterLink>
             </li>
           </ul>
         </li>
 
         <li class="dropdown_item">
           <div class="nav_link">
-            Téléchargement <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+            {{$t('Téléchargement')}} <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
             <li>
-              <a href="#" class="dropdown_link" @click="download('Droit de Travail.pdf')">
-                Droit de Travail
-              </a>
+              <RouterLink to="#" class="dropdown_link" @click="download('Droit de Travail.pdf')">
+                {{$t('Droit de Travail')}}
+              </RouterLink>
             </li>
             <li>
-              <a href="#" class="dropdown_link" @click="download('Droit de la securite sociale.pdf')">
-                Droit de la securite sociale
-              </a>
+              <RouterLink to="#" class="dropdown_link" @click="download('Droit de la securite sociale.pdf')">
+                {{$t('Droit de la securite sociale')}}
+              </RouterLink>
             </li>
             <li>
-              <a href="#" class="dropdown_link" @click="download('Séminaires.pdf')">
-                Séminaires
-              </a>
+              <RouterLink to="#" class="dropdown_link" @click="download('Séminaires.pdf')">
+                {{$t('Séminaires')}}
+              </RouterLink>
             </li>
           </ul>
         </li>
 
         <li>
-          <a href="/contact" class="nav_link">Contact</a>
+          <RouterLink to="/contact" class="nav_link">{{$t('Contact')}}</RouterLink>
         </li>
 
         <li class="dropdown_item">
           <div class="nav_link">
-            Langues <i class="ri-arrow-down-s-line dropdown_arrow"></i>
+            {{$t('Langues')}} <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
-            <li>
-              <a href="/ar" class="dropdown_link">
-                Arabe
-              </a>
+            <li @click="$i18n.locale = 'AR'">
+              <RouterLink to="/" class="dropdown_link">
+                {{$t('Arabe')}}
+              </RouterLink>
+            </li>
+            <li @click="$i18n.locale = 'FR'">
+              <RouterLink to="/" class="dropdown_link">
+                {{$t('Français')}}
+              </RouterLink>
             </li>
             <li>
-              <a href="/" class="dropdown_link">
-                Français
-              </a>
-            </li>
-            <li>
-              <a href="/en" class="dropdown_link">
-                Anglais
-              </a>
+              <RouterLink to="/en" class="dropdown_link">
+                {{$t('Anglais')}}
+              </RouterLink>
             </li>
           </ul>
         </li>

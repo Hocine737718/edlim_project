@@ -5,6 +5,9 @@ import store from './store'
 import CanvasJSStockChart from '@canvasjs/vue-stockcharts';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import { createI18n } from 'vue-i18n'
+// import FR from './locale/fr.json'
+import AR from './lang/ar.json'
 import '@/assets/css/Swal/swal.css';
 
 
@@ -30,4 +33,12 @@ axios.interceptors.response.use(
     }
 );
 
-createApp(App).use(store).use(router).use(CanvasJSStockChart).mount('#app')
+const i18n = createI18n({
+  locale: document.cookie.split('=')[1],
+  messages: {
+      // FR:FR,
+      AR:AR
+  }
+})
+
+createApp(App).use(store).use(router).use(CanvasJSStockChart).use(i18n).mount('#app')

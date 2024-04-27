@@ -1,8 +1,8 @@
 <template>
     <div class="home_services" id="home_services">
         <div class="services_header">
-            <span>SERVICES</span>
-            <h2>Comment pouvons-nous vous aider ?</h2>
+            <span>{{$t('SERVICES')}}</span>
+            <h2>{{$t('Comment pouvons-nous vous aider ?')}}</h2>
         </div>
         <div class="services_cards">
             <CardService :img="card1.img" :header="card1.header" :body="card1.body" :lien="card1.lien" id="srv_card1"/>
@@ -49,7 +49,7 @@ export default {
                   },
             card5:{ img:"world-wide-web.png",
                     header:"Conception des sites web",
-                    body:"Nous proposons la création de sites web ainsi que la personnalisation des noms de domaine, ainsi que l'hébergement de ces sites sur des plateformes étrangères....",
+                    body:"Nous proposons la création de sites web ainsi que la personnalisation des noms de domaine, ainsi que l'hébergement de ces sites sur des plateformes étrangères...",
                     lien:"/article/developpement-web"
                   },
         }

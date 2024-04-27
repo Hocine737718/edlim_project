@@ -108,12 +108,12 @@
             {{$t('Langues')}} <i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
-            <li @click="$i18n.locale = 'AR'">
+            <li @click="toAR()">
               <RouterLink to="/" class="dropdown_link">
                 {{$t('Arabe')}}
               </RouterLink>
             </li>
-            <li @click="$i18n.locale = 'FR'">
+            <li @click="toFR()">
               <RouterLink to="/" class="dropdown_link">
                 {{$t('Français')}}
               </RouterLink>
@@ -142,6 +142,16 @@ export default {
     },
     async download(filename){
       this.$store.dispatch('download',filename);
+    },
+    toAR(){
+      document.getElementById('nav-menu').classList.add('rtl');
+      document.getElementById('footer_container').classList.add("rtl");
+      this.$i18n.locale = 'AR';
+    },
+    toFR(){
+      document.getElementById('nav-menu').classList.remove('rtl');
+      document.getElementById('footer_container').classList.remove("rtl");
+      this.$i18n.locale = 'FR';
     }
   },
   mounted(){

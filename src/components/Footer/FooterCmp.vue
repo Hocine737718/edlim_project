@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-        <div class="footer_container">
+        <div class="footer_container" id="footer_container">
             <div class="footer_row footer_first_row">
                 <div class="footer_col">
                     <h2>{{$t('Sociales')}}</h2>
@@ -47,8 +47,8 @@
             </div>
             <div class="footer_row">
                 <p class="copyright">
-                    Copyright ©
                     {{this.year}}
+                    ©
                     {{$t('EURL EL DJAZAIRIA LIKHADAMAT EL IDARIA MOUTAADIDA')}}
                 </p>
             </div>

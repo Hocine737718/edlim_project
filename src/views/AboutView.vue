@@ -71,7 +71,10 @@ export default {
       $('#about_nav').addClass("rtl");
       $('#about_body').addClass("rtl");
     }
-
+    else{
+       $('#about_nav').removeClass("rtl");
+       $('#about_body').removeClass("rtl");
+    } 
     const sr = ScrollReveal({
       origin: 'top',
       distance: '60px',

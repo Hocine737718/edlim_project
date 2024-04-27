@@ -6,7 +6,7 @@
           <textarea name="message" rows="6" class="contact_input contact_area" id="message" placeholder="Message" v-model="this.message" required></textarea>
         </div>
         <button type="submit" class="contact_button">
-          Envoyer
+          {{$t('Envoyer')}}
         </button>
     </form>
 </template>

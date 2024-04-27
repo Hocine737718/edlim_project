@@ -21,24 +21,24 @@
             </div>
         </div>
         <div class="contact_body" id="contact_body">
-            <h3 class="contact_intro">Nous saurons heureux de vous compter parmi nôtres premières clientèles bien sur les premiers venus, auront des devis gratuits et une réduction de 10% sur la 1er Prestation.</h3>
+            <h3 class="contact_intro">{{$t('Nous saurons heureux de vous compter parmi nôtres premières clientèles bien sur les premiers venus, auront des devis gratuits et une réduction de 10% sur la 1er Prestation.')}}</h3>
             <div  class="contact_content">
                 <div class="contact_data">
                     <div class="contact_info">
-                            <h3 class="contact_subtitle" style="--j:1">Nous sommes Joignables aux numéros suivants :</h3>
+                            <h3 class="contact_subtitle" style="--j:1">{{$t('Nous sommes Joignables aux numéros suivants :')}}</h3>
                             <span class="contact_description" style="--j:1">
                                 <i class="ri-phone-line contact_icon"></i>
                                 0555 645 139 / 0676 760 330                            
                             </span>
-                            <h3 class="contact_subtitle"  style="--j:2">Ou par l'email suivants :</h3>
+                            <h3 class="contact_subtitle"  style="--j:2">{{$t('Ou par l\'email suivants :')}}</h3>
                             <span  class="contact_description"  style="--j:2">
                                 <i class="ri-mail-line contact_icon"></i>
                                 contact@edlim-dz.com                        
                             </span>
-                            <h3 class="contact_subtitle"  style="--j:3">Ou bien, vous êtes les bienvenus à notre adresse :</h3>
+                            <h3 class="contact_subtitle"  style="--j:3">{{$t('Ou bien, vous êtes les bienvenus à notre adresse :')}}</h3>
                             <span class="contact_description"  style="--j:3">
                                 <i class="ri-map-pin-fill"></i>
-                                30, Cité Ben Chaoua, Kheraisia, Alger 16000 
+                                {{$t('30, Cité Ben Chaoua, Kheraisia, Alger 16000')}}
                             </span>
                     </div>
                 </div>
@@ -54,8 +54,17 @@
 import ContactFormCmp from '@/components/Contact/ContactFormCmp.vue';
 import '@/assets/css/Contact/contact.css';
 import '@/assets/css/Contact/media_contact.css';
+import $ from 'jquery';
 export default {
     name:'ContactView',
-    components:{ContactFormCmp}
+    components:{ContactFormCmp},
+    mounted(){
+        if(this.$i18n.locale == 'AR'){
+            $('#contact_body').addClass("rtl");
+        } 
+        else{
+            $('#contact_body').removeClass("rtl");
+        }         
+    }
 }
 </script>

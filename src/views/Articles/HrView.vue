@@ -57,6 +57,7 @@
 import ScrollReveal from 'scrollreveal';
 import '@/assets/css/Article/article.css';
 import '@/assets/css/Article/media_article.css';
+import $ from 'jquery';
 export default {
     name:"AdminRhView",
 
@@ -69,6 +70,12 @@ export default {
         })
         sr.reveal(`.article_img`);
         sr.reveal(`.article_content`);
+        if(this.$i18n.locale == 'AR'){
+            $('#article_body').addClass("rtl");
+        }
+        else{
+            $('#article_body').removeClass("rtl");
+        }
     }
 }
 </script>

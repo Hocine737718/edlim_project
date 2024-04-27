@@ -12,8 +12,8 @@
     "Statistiques":"الإحصائيات",
     "Nos préstations":"خدماتنا",
     "Ressources Humaines":"موارد بشرية",
-    "Conseil Juridique & Recouvrement":"الإستشارة القضائية و الإسترجاع",
-    "Banque & Assistance":"مساعدات بنكية",
+    "Conseil Juridique & Recouvrement":"الإستشارات القانونية و تحصيل الديون",
+    "Banque & Assistance":"بنوك و حلول",
     "Comptabilité & traitement des déclarations":"المحاسبة و معالجة التصريحات",
     "Conception de site web":"تصميم المواقع",
     "Recrutement":"توظيف",
@@ -34,7 +34,7 @@
     "SERVICES":"خدمات",
     "Comment pouvons-nous vous aider ?":"كيف يمكننا مساعدتك؟",
     "Grâce à notre expertise pointue dans le domaine des jurisprudences, nous proposons une gamme complète de services juridiques pour répondre aux besoins variés de nos clients...":
-    "بفضل خبرتنا العميقة في مجال الفقه القانوني، نقدم مجموعة كاملة من الخدمات القانونية لتلبية الاحتياجات المتنوعة لعملائنا",
+    "بفضل خبرتنا العميقة في المجال القضائي، نقدم مجموعة كاملة من الخدمات القانونية لتلبية الاحتياجات المتنوعة لعملائنا",
     "La législation sociale englobe une gamme variée de services visant à soutenir les entreprises dans leur gestion des ressources humaines et leur conformité aux lois du travail et de la sécurité sociale...":
     "التشريع الاجتماعي يشمل مجموعة متنوعة من الخدمات التي تهدف إلى دعم الشركات في إدارة الموارد البشرية والتزامها بقوانين العمل والحماية الاجتماعية",
     "Notre équipe d’expert dynamique, basée sur leurs longues années d’expériences dans les différents cabinets de comptabilités...":
@@ -62,7 +62,7 @@
     "Alger, Algérie":
     "الجزائر العاصمة",
     "Historique":
-    "التاريخ",
+    "التأسيس",
     "Notre équipe":
     "الأعضاء",
     "NOS PRINCIPES":
@@ -98,5 +98,109 @@
     "Envoyer":
     "أرسلَ",
     "30, Cité Ben Chaoua, Kheraisia, Alger 16000":
-    "رقم 30، بن شاوة، الخرايسية، الجزائر العاصمة"
+    "رقم 30، بن شاوة، الخرايسية، الجزائر العاصمة",
+    "La législation sociale, qui enveloppe les chapitres suivants :":
+    "تشريعات الاجتماعية، التي تشمل الفصول التالية:",
+    "Gestion de la paie.":
+    "إدارة الرواتب.",
+    "Gestions des procédures des recrutements et des placements des travailleurs.":
+    "إدارة إجراءات التوظيف ووضع العمال.",
+    "Elaborations des contrats de travails sous toutes ses formes.":
+    "إعداد عقود العمل بجميع أشكالها.",
+    "Consultation en droits du travail et de la sécurités sociales.":
+    "استشارة حقوق العمل والضمانات الاجتماعية.",
+    "Etablissement de la grille des salaires.":
+    "إنشاء جدول الرواتب.",
+    "Etablissement de la nomenclature des postes.":
+    "إنشاء تسميات الوظائف.",
+    "Etablissement des procédures RH.":
+    "إنشاء إجراءات الموارد البشرية.",
+    "Audit RH et sociales.":
+    "تدقيق الموارد البشرية والشؤون الاجتماعية.",
+    "La gestion des expatriés « de la demande des visas, au permis de travail et la déclarations sociales ».":
+    "'إدارة المغتربين 'من طلبات التأشيرة إلى تصريح العمل والإقرارات الاجتماعية",
+    "Rédactions des correspondances aux profits des instances étatiques ou divers.":
+    "صياغة المراسلات لصالح الهيئات الحكومية أو غيرها.",
+    "Formations des collaborateurs dans le métier paie et RH volet terrain.":
+    "تدريب الموظفين في مجال الرواتب والموارد البشرية ميدانيًا",
+    "Correspondances sociales.":
+    "المراسلات الاجتماعية",
+    "Conseil et coaching des collaborateurs en place afin de les préparer au monde entreprise.":
+    "النصيحة والتوجيه للموظفين الحاليين لإعدادهم لعالم الأعمال",
+    "Grace à notre expertise dans le domaine des jurisprudences. Nous vous offrons :":
+    "بفضل خبرتنا في مجال القضائي. نقدم لكم:",
+    "Conseil et orientation":
+    "الاستشارة والتوجيه",
+    "Rédaction des plaintes, des requêtes et des mises en demeures.":
+    "تحرير العرائض، الشكاوي، الاعذارات و الانذارات",
+    "Rédactions des Ordonnances et des demandes aux profits des différentes administrations.":
+    "تحرير الأوامر والطلبات لمختلف الجهات",
+    "Gestion des litiges.":
+    "تسيير المنازعات",
+    "Rédaction de tous types des contrats.":
+    "صياغة جميع أنواع العقود",
+    "Nous assurerons le volet de recouvrement des créances pour les entreprises.":
+    "سنقوم بتحمل عبء تحصيل الديون للشركات.",
+    "Nous sommes à l’écoute des nouveautés du marché monétaires et les champs des lois en implications et qui domine le secteur bancaire, dû à nos années d’expériences dans ce segment :":
+    "نحن على اطلاع دائم على أحدث التطورات في السوق النقدية والمجالات القانونية ذات الصلة والتي تهيمن على القطاع المصرفي، وذلك بفضل سنوات خبرتنا في هذا المجال:",
+    "Nous assurerons un coaching des entreprises qui exercent dans le domaine IMPORT-EXPORT.":
+    "سنقدم تدريبًا للشركات العاملة في مجال الاستيراد والتصدير.",
+    "Nous assurerons un accompagnement dans le traitement des études technico commerciales.":
+    "سنقدم الدعم في معالجة الدراسات التقنية والتجارية.",
+    "Nous assurerons un accompagnement dans le traitement des dossiers financiers « analyse des bilans » ou étude financiers.":
+    "سنقدم الدعم في معالجة الملفات المالية 'تحليل الميزانيات' أو الدراسات المالية.",
+    "Nous assurerons un conseil par rapport à l’opération d’entrée en relation avec les établissements financiers à la suggestion des entreprises et selon leurs compétitivités.":
+    "سنقدم المشورة بشأن عملية الدخول في علاقة مع المؤسسات المالية بناءً على اقتراحات الشركات ووفقًا لقدرتها التنافسية.",
+    "Notre équipe d’expert dynamique, basée sur leurs longues années d’expériences dans les différents cabinets de comptabilités, voudra prendre le volet le plus lourds pour les entreprises afin de prévoir leurs santés financières :":
+    "فريقنا من الخبراء الديناميكي، استنادًا إلى سنوات خبرتهم الطويلة في شركات المحاسبة المختلفة، يرغب في تولي الجزء الأكثر صعوبة بالنسبة للشركات لتنبؤ صحتها المالية:",
+    "Audit.":
+    "التدقيق.",
+    "Nous assurerons les déclarations de Jibayatic ’s les G50 mensuelles.":
+    "سنقوم بإعداد إقرارات جيبايتك الشهرية G50.",
+    "Les déclarations annuelles des salaires DAS,301BIS/G29.":
+    "الإقرارات السنوية للرواتب DAS,301BIS/G29.",
+    "La saisie des opérations caisses et banques et les états de rapprochement.":
+    "إدخال عمليات الصناديق والبنوك وبيانات المطابقة.",
+    "Nous offrons :":
+    "نقدم:",
+    "Création des sites web et personnalisation des adresses des domaines.":
+    "إنشاء مواقع الويب وتخصيص عناوين النطاقات.",
+    "Hébergement des sites web dans les plateformes étrangères.":
+    "استضافة مواقع الويب على المنصات الأجنبية.",
+    "0555 645 139 / 0676 760 330":
+    "139 645 0555 / 330 760 0676",
+    "Veuillez remplir ce formulaire en complétant tous les champs requis. Nous vous contacterons dès que possible.":
+    "يرجى ملء هذا النموذج بإكمال جميع الحقول المطلوبة. سنتواصل معك في أقرب وقت ممكن.",
+    "Nom et Prénom:":
+    "الاسم واللقب:",
+    "Mail:":
+    "البريد الإلكتروني:",
+    "Téléphone:":
+    "هاتف:",
+    "Fonction:":
+    "وظيفة:",
+    "Message:":
+    "رسالة:",
+    "Joindre CV:":
+    "يرجى إرفاق السيرة الذاتية",
+    "Parcourir":
+    "بحث",
+    "La taille limite pour chaque fichier est de 20 MB":
+    ".حجم كل ملف أقصى 20 ميجابايت",
+    "Postuler":
+    "أرسلَ",
+    "Aucun fichier sélectionné":
+    "لا يوجد ملف محدد",
+    "Formulaire de candidature":
+    "لا يوجد ملف محدد",
+    "ID":
+    "رقم",
+    "Titre":
+    "عنوان",
+    "Clics":
+    "زيارات",
+    "Aucun résultat trouvé.":
+    "لا توجد نتائج.",
+    "Page en construction, revenez bientôt pour découvrir nos nouveautés !":
+    "صفحة قيد الإنشاء، تفضلوا بالعودة قريبًا لاكتشاف ما هو جديد!"
 }

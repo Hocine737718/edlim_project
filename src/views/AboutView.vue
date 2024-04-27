@@ -1,7 +1,7 @@
 <template>
   <div class="about" id="about">
-    <div class="about_header">
-      <div class="about_title">
+    <div class="about_header" id="about_header">
+      <div class="about_title" v-if="this.$i18n.locale != 'AR'">
         <span style="--i:1">Q</span>
         <span style="--i:2">U</span>
         <span style="--i:3">I</span>
@@ -19,6 +19,9 @@
         <span style="--i:13">S</span>
         <span style="--i:13">&nbsp;</span>
         <span style="--i:14">?</span>
+      </div>
+      <div class="about_title" v-if="this.$i18n.locale == 'AR'">
+         {{ $t('Qui sommes-nous') }}
       </div>
       <div class="about_nav" id="about_nav">
         <a class="about_nav_item" href="#about_history">{{$t('Historique')}}</a>
@@ -92,6 +95,15 @@ export default {
             event.preventDefault();
         });
     }); 
+
+    if(this.$i18n.locale == 'AR'){
+             $('#about_content').addClass("rtl");
+             $('#about_header').addClass("rtl");
+        }
+        else{
+            $('#about_content').removeClass("rtl");
+            $('#about_header').removeClass("rtl");
+        }
   }
 }
 </script>

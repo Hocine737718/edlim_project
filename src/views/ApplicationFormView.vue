@@ -1,7 +1,7 @@
 <template>
     <div class="application">
-        <div class="application_header">
-            <div class="application_title">
+        <div class="application_header" id="application_header">
+            <div class="application_title" v-if="this.$i18n.locale != 'AR'">
                 <div>
                     <span style="--i:1">F</span>
                     <span style="--i:2">O</span>
@@ -34,61 +34,64 @@
                     <span style="--i:31">E</span>
                 </div>
             </div>
+            <div class="application_title" v-if="this.$i18n.locale == 'AR'">
+                {{ $t('Candidature spontanée') }}
+            </div>
             <p>
-            Veuillez remplir ce formulaire en complétant tous les champs requis. Nous vous contacterons dès que possible.
+                {{$t('Veuillez remplir ce formulaire en complétant tous les champs requis. Nous vous contacterons dès que possible.')}}
             </p>
         </div>
-        <div class="application_body">
+        <div class="application_body" id="application_body">
             <div class="application_box">
                 <div class="application_label">
-                    Nom et Prénom:<span class="required">&ast;</span>
+                    {{$t('Nom et Prénom:')}}<span class="required">&ast;</span>
                 </div>
                 <input class="application_input" type="text" v-model="name" required>
             </div>
             <div class="application_box">
                 <div class="application_label">
-                    Mail:<span class="required">&ast;</span>
+                    {{$t('Mail:')}}<span class="required">&ast;</span>
                 </div>
                 <input class="application_input" type="email" v-model="email" required>
             </div>
             <div class="application_box">
                 <div class="application_label">
-                    Téléphone:<span class="required">&ast;</span>
+                    {{$t('Téléphone:')}}<span class="required">&ast;</span>
                 </div>
                 <input class="application_input" type="text" v-model="phone" required>
             </div>
             <div class="application_box">
                 <div class="application_label">
-                    Fonction:<span class="required">&ast;</span>
+                    {{$t('Fonction:')}}<span class="required">&ast;</span>
                 </div>
                 <input class="application_input" type="text" v-model="job" required>
             </div>
             <div class="application_box">
                 <div class="application_label">
-                    Message:<span class="required">&ast;</span>
+                    {{$t('Message:')}}<span class="required">&ast;</span>
                 </div>
                 <textarea class="application_input  textarea" cols="30" rows="10" v-model="message" required></textarea>
             </div>
             <div class="application_box">
                 <div class="application_label">
-                    Joindre CV:<span class="required">&ast;</span>
+                    {{$t('Joindre CV:')}}<span class="required">&ast;</span>
                 </div>
                 <span>
                     <div class="application_file">
                         <button @click="selectFile()">
                             <i class="ri-file-upload-fill"></i>
-                            Parcourir
+                            {{$t('Parcourir')}}
                         </button>
                         <input type="file" id="file_input" @change="onFileChange($event)" style="display:none;">
                         <small>{{this.filename}}</small>
                     </div>
-                    <small>La taille limite pour chaque fichier est de 20 MB</small>
+                    <small>{{$t('La taille limite pour chaque fichier est de 20 MB')}}</small>
                 </span>
             </div>                       
         </div>
         <div class="applcation_footer">
             <button @click="action()">
-                Postuler
+                {{$t('Postuler')}}
             </button>
         </div>
     </div>
@@ -99,6 +102,7 @@ import Swal from 'sweetalert2';
 import '@/assets/css/Application/application.css'
 import '@/assets/css/Application/media_application.css'
 import '@/assets/css/Application/select_application.css'
+import $ from 'jquery';
 export default {
     name:'ApplicationFormView',
     data(){
@@ -114,7 +118,7 @@ export default {
     computed:{
         filename(){
             if(this.selected_file!="") return this.selected_file.name;
-            else return "Aucun fichier sélectionné";
+            else return this.$t('Aucun fichier sélectionné');
         }
     },
     methods:{
@@ -166,6 +170,16 @@ export default {
                 });
             }
         }
+    },
+    mounted(){
+        if(this.$i18n.locale == 'AR'){
+             $('#application_body').addClass("rtl");
+             $('#application_header').addClass("rtl");
+        }
+        else{
+            $('#application_body').removeClass("rtl");
+            $('#application_header').removeClass("rtl");
+        }        
     }
 }
 </script>

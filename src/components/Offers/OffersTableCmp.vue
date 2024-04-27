@@ -11,13 +11,13 @@
                 <option value="0">Tout</option>
             </select>
 		</div>
-        <div class="offers_table">
+        <div class="offers_table" id="offers_table">
             <table>
                 <thead>
                     <tr>
                         <th class="offers_th" v-for="col in columns" :key="col.field" @click="sort(col.field,$event)">
                             <div>
-                                {{col.title}}
+                                {{$t(col.title)}}
                                 <span class="icon-arrow">&UpArrow;</span>
                             </div>
                         </th>
@@ -25,7 +25,7 @@
                 </thead>
                 <tbody>
                     <tr v-if="lineSet.length==0">
-                        <td class="offers_td" style="text-align: center;width:100%;min-width: 800px;" :colspan="columns.length">Aucun résultat trouvé.</td>
+                        <td class="offers_td" style="text-align: center;width:100%;min-width: 800px;" :colspan="columns.length">{{$t('Aucun résultat trouvé.')}}</td>
                     </tr>
                     <tr v-for="line in lineSet" :key="line.id">
                         <td class="offers_td" v-for="column in columns" :key="column.field">
@@ -98,6 +98,14 @@ export default {
         },
         async click(id){
             this.$store.dispatch('add_click',id);  
+        }        
+    },
+    mounted(){
+        if(this.$i18n.locale == 'AR'){
+             $('#offers_table').addClass("rtl");
+        }
+        else{
+            $('#offers_table').removeClass("rtl");
         }        
     }
 }

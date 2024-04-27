@@ -1,7 +1,7 @@
 <template>
     <div class="offers">
-        <div class="offers_header">
-            <div class="offers_title">
+        <div class="offers_header" id="offers_header">
+            <div class="offers_title"  v-if="this.$i18n.locale != 'AR'">
                 <div>
                     <span style="--i:1">O</span>
                     <span style="--i:2">F</span>
@@ -21,6 +21,9 @@
                     <span style="--i:13">I</span>
                 </div>
             </div>
+            <div class="offers_title" v-if="this.$i18n.locale == 'AR'">
+                {{ $t('Offres d\'emploi') }}
+            </div>
         </div>
         <OffersTableCmp :lines="lines" :columns="columns"/>
     </div>
@@ -29,16 +32,16 @@
 import OffersTableCmp from '@/components/Offers/OffersTableCmp.vue';
 import '@/assets/css/Offers/offers.css';
 import '@/assets/css/Offers/media_offers.css';
-
+import $ from 'jquery';
 export default {
     name:'JobOffrsView',
     components:{OffersTableCmp},
     data(){
         return {
             columns:[ 
-                { title: 'ID', field: 'id' },
-                { title: 'Titre', field: 'title' },
-                { title: 'Clics', field: 'clicks' }
+                { title: this.$t('ID'), field: 'id' },
+                { title: this.$t('Titre'), field: 'title' },
+                { title: this.$t('Clics'), field: 'clicks' }
             ]
         }        
     },
@@ -46,6 +49,16 @@ export default {
         lines(){
             return this.$store.state.offers;
         }
+    },
+    mounted(){
+        if(this.$i18n.locale == 'AR'){
+             $('#offers_content').addClass("rtl");
+             $('#offers_header').addClass("rtl");
+        }
+        else{
+            $('#offers_content').removeClass("rtl");
+            $('#offers_header').removeClass("rtl");
+        }        
     }
 }
 </script>

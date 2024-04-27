@@ -150,3 +150,6 @@
     border: 2px var(--blue-color) solid;
     border-radius: 10px;
 }
+.rtl .offers_title{
+    letter-spacing: 0rem;
+}

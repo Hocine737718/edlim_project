@@ -176,7 +176,19 @@ export default createStore({
           icon: "error",title: "Erreur",text: e.message,
         });      
       });
-    }
+    },
+
+    async add_visitor(context){
+      const dataLabel="add_visitor";
+      const dataContent=`{
+                          "msg":"ajouter un visiteur"
+                          }`;
+      const serverUrl=`${context.state.baseURL}/add_visitor.php`;
+      const res=await useAxios(dataLabel,dataContent,serverUrl);
+      if(res.error){
+          console.error("Add Visitors-> ",res.msg);
+      }  
+    },
   },
   modules: {
   }

@@ -108,20 +108,20 @@
             Languages<i class="ri-arrow-down-s-line dropdown_arrow"></i>
           </div>
           <ul class="dropdown_menu">
-            <li>
-              <a href="/ar" class="dropdown_link">
+            <li @click="toAR()">
+              <RouterLink to="/" class="dropdown_link">
                 Arabic
-              </a>
+              </RouterLink>
             </li>
-            <li>
-              <a href="/" class="dropdown_link">
+            <li @click="toFR()">
+              <RouterLink to="/" class="dropdown_link">
                 French
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a href="/en" class="dropdown_link">
+              <RouterLink to="/en" class="dropdown_link">
                 English
-              </a>
+              </RouterLink>
             </li>
           </ul>
         </li>
@@ -142,6 +142,16 @@ export default {
     },
     async download(filename){
       this.$store.dispatch('download',filename);
+    },
+    toAR(){
+      document.getElementById('nav-menu').classList.add('rtl');
+      document.getElementById('footer_container').classList.add("rtl");
+      this.$i18n.locale = 'AR';
+    },
+    toFR(){
+      document.getElementById('nav-menu').classList.remove('rtl');
+      document.getElementById('footer_container').classList.remove("rtl");
+      this.$i18n.locale = 'FR';
     }
   },
   mounted(){

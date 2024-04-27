@@ -5,9 +5,9 @@
                 <div class="footer_col">
                     <h2>{{$t('Sociales')}}</h2>
                     <div class="footer_socials">
-                        <RouterLink to="https://www.facebook.com/" target="_blank"><i class="ri-facebook-box-fill"></i></RouterLink>
-                        <RouterLink to="https://www.instagram.com/" target="_blank"><i class="ri-instagram-fill"></i></RouterLink>
-                        <RouterLink to="https://twitter.com/" target="_blank"><i class="ri-twitter-x-fill"></i></RouterLink>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="ri-twitter-x-fill"></i></a>
                     </div>
                 </div>
                 <div class="footer_col">
@@ -19,7 +19,7 @@
                         </div>
                         <div  class="footer_info">
                             <i class="ri-phone-fill"></i>
-                            <span>0555 645 139 / 0676 760 330</span>
+                            <span>{{$t('0555 645 139 / 0676 760 330')}}</span>
                         </div>
                         <div  class="footer_info">
                             <i class="ri-mail-fill"></i>

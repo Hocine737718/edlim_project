@@ -1,7 +1,7 @@
 <template>
     <div class="article accounting">
-        <div class="article_header">
-            <div class="article_title">
+        <div class="article_header" id="article_header">
+            <div class="article_title" v-if="this.$i18n.locale != 'AR'">
                 <div>
                     <span style="--i:1">C</span>
                     <span style="--i:2">O</span>
@@ -50,18 +50,21 @@
                     <span style="--i:40">S</span>  
                 </div>
             </div>
+            <div class="article_title" v-if="this.$i18n.locale == 'AR'">
+                {{ $t('Comptabilité & traitement des déclarations') }}
+            </div>
         </div>
         <div class="article_body" id="article_body">
             <div class="article_img">
                 <img src="@/assets/img/Articles/accounting.png" alt="">
             </div>
-            <div class="article_content">
-                <p>&nbsp;&nbsp;<i class="ri-play-fill"></i>&nbsp;Notre équipe d’expert dynamique, basée sur leurs longues années d’expériences dans les différents cabinets de comptabilités, voudra prendre le volet le plus lourds pour les entreprises afin de prévoir leurs santés financières :</p>
+            <div class="article_content" id="article_content">
+                <p>&nbsp;&nbsp;<i class="ri-play-fill"></i>&nbsp;{{$t('Notre équipe d’expert dynamique, basée sur leurs longues années d’expériences dans les différents cabinets de comptabilités, voudra prendre le volet le plus lourds pour les entreprises afin de prévoir leurs santés financières :')}}</p>
                 <ul class="article_list">
-                    <li style="--j:1">Audit.</li>
-                    <li style="--j:2">Nous assurerons les déclarations de Jibayatic ’s les G50 mensuelles.</li>
-                    <li style="--j:3">Les déclarations annuelles des salaires DAS,301BIS/G29.</li>
-                    <li style="--j:4">La saisie des opérations caisses et banques et les états de rapprochement.</li>
+                    <li style="--j:1">{{$t('Audit.')}}</li>
+                    <li style="--j:2">{{$t('Nous assurerons les déclarations de Jibayatic ’s les G50 mensuelles.')}}</li>
+                    <li style="--j:3">{{$t('Les déclarations annuelles des salaires DAS,301BIS/G29.')}}</li>
+                    <li style="--j:4">{{$t('La saisie des opérations caisses et banques et les états de rapprochement.')}}</li>
                 </ul>
             </div>
         </div>
@@ -71,6 +74,7 @@
 import ScrollReveal from 'scrollreveal';
 import '@/assets/css/Article/article.css';
 import '@/assets/css/Article/media_article.css';
+import $ from 'jquery';
 export default {
     name:"AdminRhView",
 
@@ -83,6 +87,14 @@ export default {
         })
         sr.reveal(`.article_img`);
         sr.reveal(`.article_content`);
+        if(this.$i18n.locale == 'AR'){
+             $('#article_content').addClass("rtl");
+             $('#article_header').addClass("rtl");
+        }
+        else{
+            $('#article_content').removeClass("rtl");
+            $('#article_header').removeClass("rtl");
+        }
     }
 }
 </script>

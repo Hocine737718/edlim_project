@@ -27,7 +27,8 @@ export default {
     ,FooterEn
     ,ScrollUp},
     beforeMount(){
-    this.$store.dispatch('get_offers');
-  }
+      this.$store.dispatch('get_offers');
+      this.$store.dispatch('add_visitor');
+    }
 }
 </script>

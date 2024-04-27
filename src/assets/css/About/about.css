@@ -103,3 +103,29 @@
     flex-direction: column;
     row-gap: 0.5rem;
 }
+.rtl .about_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    font-size: var(--font-size-9);
+    font-weight: var(--font-bolder);
+    color: var(--yellow-color);
+    text-transform: uppercase;
+    letter-spacing: 0rem;
+    text-align: center; 
+    -webkit-box-reflect: unset;   
+}
+.about_header.rtl {
+    row-gap: 20px;  
+}
+.rtl .about_article{
+    line-height: 1.5;
+    font-size: var(--font-size-6);
+}
+.rtl .about_nav_item{
+    padding: var(--padding-btn-1);
+    text-transform: uppercase;
+    font-size: var(--font-size-6);
+}

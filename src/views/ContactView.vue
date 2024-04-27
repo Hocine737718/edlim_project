@@ -1,7 +1,7 @@
 <template>
     <div class="contact">
-        <div class="contact_header">
-            <div class="contact_title">
+        <div class="contact_header"  id="contact_header">
+            <div class="contact_title" v-if="this.$i18n.locale != 'AR'">
                 <div>
                     <span style="--i:1">C</span>
                     <span style="--i:2">O</span>
@@ -18,6 +18,9 @@
                     <span style="--i:13">U</span> 
                     <span style="--i:14">S</span>                      
                 </div>
+            </div>
+            <div class="contact_title" v-if="this.$i18n.locale == 'AR'">
+                {{ $t('Contact') }}
             </div>
         </div>
         <div class="contact_body" id="contact_body">
@@ -61,9 +64,11 @@ export default {
     mounted(){
         if(this.$i18n.locale == 'AR'){
             $('#contact_body').addClass("rtl");
+            $('#contact_header').addClass("rtl");
         } 
         else{
             $('#contact_body').removeClass("rtl");
+            $('#contact_header').removeClass("rtl");
         }         
     }
 }

@@ -38,7 +38,8 @@ const i18n = createI18n({
   messages: {
       // FR:FR,
       AR:AR
-  }
+  },
+  legacy: false 
 })
 
 createApp(App).use(store).use(router).use(CanvasJSStockChart).use(i18n).mount('#app')

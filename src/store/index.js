@@ -9,7 +9,8 @@ export default createStore({
     baseURL: "https://gms-php.000webhostapp.com/_php",
     offers:[],
     line_business_stats:[],
-    services_stats:[]
+    services_stats:[],
+    nb_views:0
   },
   getters: {
   },
@@ -20,6 +21,9 @@ export default createStore({
     set_stats(state,{stats, stats_name} ) {
       if(stats_name=="line_business_stats") state.line_business_stats=stats;
       if(stats_name=="services_stats") state.services_stats=stats;
+    },
+    set_nb_views(state, nb_views) {
+      state.nb_views = nb_views;
     },
   },
   actions: {
@@ -177,18 +181,34 @@ export default createStore({
         });      
       });
     },
-
-    async add_visitor(context){
-      const dataLabel="add_visitor";
+    
+    async add_visitors(context,date){
+      const dataLabel="add_visitors";
       const dataContent=`{
-                          "msg":"ajouter un visiteur"
+                          "date":"${date}"
                           }`;
-      const serverUrl=`${context.state.baseURL}/add_visitor.php`;
+      const serverUrl=`${context.state.baseURL}/add_visitors.php`;
       const res=await useAxios(dataLabel,dataContent,serverUrl);
-      if(res.error){
+      if(!res.error){    
+          console.log("Add Visitors-> ",res.msg);       
+      }
+      else{
           console.error("Add Visitors-> ",res.msg);
       }  
     },
+    async get_nb_views(context){
+      const dataLabel="get_nb_views";
+      const dataContent="";
+      const serverUrl=`${context.state.baseURL}/get_nb_views.php`;
+      const res=await useAxios(dataLabel,dataContent,serverUrl);
+      if(!res.error){                
+        console.log("Get NB Views-> ",res.data);
+        context.commit('set_nb_views', res.data);
+      }
+      else{
+        console.error("Get NB Views-> ",res.msg);
+      }       
+    }, 
   },
   modules: {
   }

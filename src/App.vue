@@ -50,7 +50,7 @@ export default {
     else
     {
       let duration=(now-localStorage.getItem("edlim_last_access"))/1000/60;
-      if(duration>10)
+      if(duration>15)
       {
         localStorage.removeItem("edlim_last_access");
         localStorage.setItem("edlim_last_access", now);

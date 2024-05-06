@@ -86,7 +86,3 @@ button{
     align-items: center;
     text-align: center;
 }
-.rtl{
-    direction: rtl;
-    unicode-bidi: bidi-override;    
-}

@@ -73,9 +73,6 @@
     align-items: center;
     transition: background-color .3s;
 }  
-.rtl .nav_link {
-    font-size: var(--font-size-6);
-} 
 .nav_link:hover {
     color: var(--blue-color);
     filter: brightness(0.8);
@@ -147,8 +144,3 @@
 .dropdown_add {
     margin-left: auto;
 }  
-.rtl .nav_link,
-.rtl .dropdown_link, 
-.rtl .dropdown_sublink {
-    font-size: var(--font-size-6);
-} 

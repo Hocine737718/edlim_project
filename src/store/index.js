@@ -5,8 +5,8 @@ import Swal from 'sweetalert2';
 
 export default createStore({
   state: {
-    //baseURL: "http://localhost/server/multi_services/_php",
-    baseURL: "https://gms-php.000webhostapp.com/_php",
+    baseURL: "http://localhost/server/multi_services/_php",
+    // baseURL: "https://gms-php.000webhostapp.com/_php",
     offers:[],
     line_business_stats:[],
     services_stats:[],

@@ -1,0 +1,27 @@
+.rtl{
+    direction: rtl;
+    unicode-bidi: bidi-override;    
+    --font-size-1: .75rem;
+    --font-size-2: .85rem;
+    --font-size-3: 1rem;
+    --font-size-4: 1.1rem;
+    --font-size-5: 1.35rem;
+    --font-size-6: 1.5rem;
+    --font-size-7: 1.75rem;
+    --font-size-8: 2rem;
+    --font-size-9: 2.5rem;
+    --font-size-10: 3rem;
+    --font-size-11: 3.5rem;
+    --font-size-12: 4rem;
+}
+.rtl .home_slider{
+    direction: ltr; 
+}
+.rtl .nav_link{
+    padding: 1.25rem 1rem;
+}
+@media screen and (min-width: 900px) {
+    .rtl .footer_first_row{
+        grid-template-columns: 140px 280px 230px 120px;
+    }
+}

@@ -144,13 +144,11 @@ export default {
       this.$store.dispatch('download',filename);
     },
     toAR(){
-      document.getElementById('nav-menu').classList.add('rtl');
-      document.getElementById('footer_container').classList.add("rtl");
+      document.getElementsByTagName('body')[0].classList.add('rtl');
       this.$i18n.locale = 'AR';
     },
     toFR(){
-      document.getElementById('nav-menu').classList.remove('rtl');
-      document.getElementById('footer_container').classList.remove("rtl");
+      document.getElementsByTagName('body')[0].classList.remove('rtl');
       this.$i18n.locale = 'FR';
     }
   },

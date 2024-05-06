@@ -20,6 +20,7 @@ import NbViewsCmp from '@/components/NbViewsCmp.vue';
 import 'remixicon/fonts/remixicon.css';
 
 import '@/assets/css/_global.css';
+import '@/assets/css/rtl.css';
 export default {
   components:{
     Navbar

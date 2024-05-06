@@ -116,16 +116,6 @@
     font-size: var(--font-size-4);
     text-align: -webkit-auto;
 }
-.rtl .article_title{
-    letter-spacing: 0rem;
-}
-.article_content.rtl {
-    font-size: var(--font-size-7);
-    width: 40%;
-}
-.article_content.rtl p{
-    font-size: var(--font-size-7);
-}
 .article_content p i{
     font-size: var(--font-size-4);
     font-weight: var(--font-semi-bold);

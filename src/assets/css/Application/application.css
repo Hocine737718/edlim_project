@@ -141,19 +141,3 @@
     text-overflow: ellipsis; /* Affiche "..." lorsque le texte est coupé */
     width:200px;
 }
-.application_header.rtl {
-    row-gap: 20px;
-}
-.rtl .application_title{
-    -webkit-box-reflect: unset;
-    letter-spacing: 0rem;
-}
-.rtl .application_box{
-    font-size: var(--font-size-7);
-}
-.rtl .application button{
-    font-size: var(--font-size-7);
-}
-.application_header.rtl  p {
-    font-size: var(--font-size-7);
-}

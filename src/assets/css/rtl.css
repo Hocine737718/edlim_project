@@ -1,9 +1,9 @@
 .rtl{
     direction: rtl;
     unicode-bidi: bidi-override;    
-    --font-size-1: .75rem;
-    --font-size-2: .85rem;
-    --font-size-3: 1rem;
+    --font-size-1: .85rem;
+    --font-size-2: .9rem;
+    --font-size-3: 1.05rem;
     --font-size-4: 1.1rem;
     --font-size-5: 1.35rem;
     --font-size-6: 1.5rem;
@@ -23,5 +23,22 @@
 @media screen and (min-width: 900px) {
     .rtl .footer_first_row{
         grid-template-columns: 140px 280px 230px 120px;
+    }
+}
+.rtl .about_title,
+.rtl .article_title,
+.rtl .offers_title,
+.rtl .application_title,
+.rtl .contact_title{
+    letter-spacing: 0rem; 
+    -webkit-box-reflect: unset;   
+}
+.rtl #article_body{
+    direction: ltr; 
+}
+@media screen and (min-width: 670px) {
+    .rtl .article_body {
+        width: 80%;
+        padding: 0px;
     }
 }

@@ -143,13 +143,11 @@
     justify-content: flex-end;
     width: 100%;
     padding: 2px 0px;
+    direction: ltr;
 }
 .offers_select {
     padding: 5px;
     font-size: var(--font-size-6);
     border: 2px var(--blue-color) solid;
     border-radius: 10px;
-}
-.rtl .offers_title{
-    letter-spacing: 0rem;
 }
